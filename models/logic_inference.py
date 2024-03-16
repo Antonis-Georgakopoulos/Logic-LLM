@@ -17,6 +17,9 @@ class LogicInferenceEngine:
         self.model_name = args.model_name
         self.save_path = args.save_path
         self.backup_strategy = args.backup_strategy
+        self.self_refine = args.self_refine
+        self.self_refine_steps = args.sr_steps
+
 
         self.dataset = self.load_logic_programs()
         program_executor_map = {'FOLIO': FOL_Prover9_Program, 
@@ -28,7 +31,10 @@ class LogicInferenceEngine:
         self.backup_generator = Backup_Answer_Generator(self.dataset_name, self.backup_strategy, self.args.backup_LLM_result_path)
 
     def load_logic_programs(self):
-        with open(os.path.join('./outputs/logic_programs', f'{self.dataset_name}_{self.split}_{self.model_name}.json')) as f:
+        prefix=''
+        if self.self_refine == 'yes':
+            prefix = f'self-refine-{self.self_refine_steps}_'
+        with open(os.path.join('./outputs/logic_programs', f'{prefix}{self.dataset_name}_{self.split}_{self.model_name}.json')) as f:
             dataset = json.load(f)
         print(f"Loaded {len(dataset)} examples from {self.split} split.")
         return dataset
@@ -94,6 +100,8 @@ def parse_args():
     parser.add_argument('--backup_LLM_result_path', type=str, default='../baselines/results')
     parser.add_argument('--model_name', type=str, default='text-davinci-003')
     parser.add_argument('--timeout', type=int, default=60)
+    parser.add_argument('--self_refine', type=str, default='no')
+    parser.add_argument('--sr_steps', type=int, default=3)
     args = parser.parse_args()
     return args
 
