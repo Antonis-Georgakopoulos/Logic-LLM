@@ -1,0 +1,106 @@
+Task Description: You are given a problem description and a question. The task is to: 
+1) define all the predicates in the problem
+2) parse the problem into logic rules based on the defined predicates
+3) write all the facts mentioned in the problem
+4) parse the question into the logic form
+------
+Problem:
+bhgvynv is a hamster, sppqg is a ant, so bhgvynv is more likely to spin on a wheel than sppqg
+Question:
+Is it true that bhgvynv is more likely to spin on a wheel than sppqg?
+###
+Predicates:
+Hamster($x, bool) ::: Is x a hamster?
+Ant($x, bool) ::: Is x an ant?
+SpinsOnWheel($x, bool) ::: Does x spin on a wheel?
+MoreLikely($x, $y, bool) ::: Is x more likely than y to spin on a wheel?
+Facts:
+Hamster(bhgvynv, True)
+Ant(sppqg, True)
+Rules:
+Hamster($x, True) >>> SpinsOnWheel($x, True)
+Ant($x, True) >>> SpinsOnWheel($x, False)
+Query:
+MoreLikely(SpinsOnWheel(bhgvynv, True), SpinsOnWheel(sppqg, True))
+------
+Problem:
+wlyvetnauax is a frog, yrtpoetf is a crocodile, so wlyvetnauax is not less likely to be a pet than yrtpoetf
+Question:
+Is it true that wlyvetnauax is not less likely to be a pet than yrtpoetf?
+###
+Predicates:
+Frog($x, bool) ::: Is x a frog?
+Crocodile($x, bool) ::: Is x a crocodile?
+Pet($x, bool) ::: Is x kept as a pet?
+LessLikely($x, $y, bool) ::: Is x less likely than y to be something?
+Facts:
+Frog(wlyvetnauax, True)
+Crocodile(yrtpoetf, True)
+Rules:
+Frog($x, True) >>> Pet($x, True)
+Crocodile($x, True) >>> Pet($x, LessLikely(True, True))
+Query:
+Not(LessLikely(Pet(wlyvetnauax, True), Pet(yrtpoetf, True)))
+------
+Problem:
+ifyrpm is a bird, lhp is a deer, so ifyrpm is less likely to be in the forest than lhp
+Question:
+Is it true that ifyrpm is less likely to be in the forest than lhp?
+###
+Predicates:
+Bird($x, bool) ::: Is x a bird?
+Deer($x, bool) ::: Is x a deer?
+InForest($x, bool) ::: Is x in the forest?
+LessLikely($x, $y, bool) ::: Is x less likely than y to be in the forest?
+Facts:
+Bird(ifyrpm, True)
+Deer(lhp, True)
+Rules:
+Bird($x, True) >>> InForest($x, True)
+Deer($x, True) >>> InForest($x, True)
+Query:
+LessLikely(InForest(ifyrpm, True), InForest(lhp, True))
+------
+Problem:
+xpmlfgjdxwhz is a bear, pdbiauv is a hippopotamus, so pdbiauv is not more likely to fish for salmon than xpmlfgjdxwhz
+Question:
+Is it true that pdbiauv is not more likely to fish for salmon than xpmlfgjdxwhz?
+###
+Predicates:
+Bear($x, bool) ::: Is x a bear?
+Hippopotamus($x, bool) ::: Is x a hippopotamus?
+FishesForSalmon($x, bool) ::: Does x fish for salmon?
+MoreLikely($x, $y, bool) ::: Is x more likely than y to do something?
+Facts:
+Bear(xpmlfgjdxwhz, True)
+Hippopotamus(pdbiauv, True)
+Rules:
+Bear($x, True) >>> FishesForSalmon($x, True)
+Hippopotamus($x, True) >>> FishesForSalmon($x, False)
+Query:
+Not(MoreLikely(FishesForSalmon(pdbiauv, True), FishesForSalmon(xpmlfgjdxwhz, True)))
+------
+Problem:
+gvbamgabyz is a cat, gtqehrq is a horse, so gvbamgabyz is more likely to be in my lap than gtqehrq
+Question:
+Is it true that gvbamgabyz is more likely to be in your lap than gtqehrq?
+###
+Predicates:
+Cat($x, bool) ::: Is x a cat?
+Horse($x, bool) ::: Is x a horse?
+InLap($x, bool) ::: Is x in your lap?
+MoreLikely($x, $y, bool) ::: Is x more likely than y to be in your lap?
+Facts:
+Cat(gvbamgabyz, True)
+Cat(gvbamgabyz, True)
+Rules:
+Cat($x, True) >>> InLap($x, True)
+Horse($x, True) >>> InLap($x, False)
+Query:
+MoreLikely(InLap(gvbamgabyz, True), InLap(gtqehrq, True))
+------
+Problem:
+[[PROBLEM]]
+Question:
+[[QUESTION]]
+###
