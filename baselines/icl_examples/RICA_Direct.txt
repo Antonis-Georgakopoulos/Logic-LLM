@@ -1,0 +1,66 @@
+Given a problem statement as contexts, the task is to answer a logical reasoning question. 
+------
+Context:
+dng is a spider, vvjhek is an elephant.
+
+Question: Based on the above information, is the following statement true or false? dng is not less likely to spin a web than vvjhek
+
+Options:
+A) True
+B) False
+
+The correct option is: A
+------
+Context:
+ptrktrdbad is a elephant, zbspy is a chicken.
+
+Question: Based on the above information, is the following statement true or false? zbspy is not less likely to be in africa than ptrktrdbad
+
+Options:
+A) True
+B) False
+
+The correct option is: B
+------
+Context:
+kabazpvx is a bee, ixex is a dolphin
+
+Question: Based on the above information, is the following statement true or false? kabazpvx is not less likely to be in a meadow than ixex
+
+Options:
+A) True
+B) False
+
+The correct option is: A
+------
+Context:
+exblj is a monkey, dugeniqfnr is a eagle
+
+Question: Based on the above information, is the following statement true or false? dugeniqfnr is less likely to be in the circus than exblj
+
+Options:
+A) True
+B) False
+
+The correct option is: A
+------
+Context:
+ley is a cat, jdvaypmjqh is a horse
+
+Question: Based on the above information, is the following statement true or false? jdvaypmjqh is not less likely to kill birds than ley
+
+Options:
+A) True
+B) False
+
+The correct option is: B
+------
+Context:
+[[CONTEXT]]
+
+Question: [[QUESTION]]
+
+Options:
+[[OPTIONS]]
+
+The correct option is:

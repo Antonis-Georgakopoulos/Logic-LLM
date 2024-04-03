@@ -1,0 +1,76 @@
+Given a problem statement as contexts, the task is to answer a logical reasoning question. 
+------
+Context:
+zdvozphe is a shark, bhicidi is a snail
+
+Question: Based on the above information, is the following statement true or false? bhicidi is less likely to circle the swimmer than zdvozphe
+
+Options:
+A) True
+B) False
+
+Reasoning: Sharks are natural predators and can pose a threat to swimmers. Snails are herbivores and typically pose no danger to humans. They are more likely to stay on the ocean floor or vegetation. Therefore, based on common knowledge about these animals, zdvozphe (the shark) is more likely to circle a swimmer than bhicidi (the snail).
+
+The correct option is: A
+------
+Context:
+rhsevpboma is a chicken, rrjrxwsqtznu is a pig
+
+Question: Based on the above information, is the following statement true or false? rhsevpboma is less likely to be food than rrjrxwsqtznu
+
+Options:
+A) True
+B) False
+
+Reasoning: While both chickens and pigs are raised for food, chickens are more likely to be raised specifically for meat consumption, whereas pigs can also be raised for other products like leather.  Therefore, rhsevpboma (the chicken) is slightly more likely to be destined for food than rrjrxwsqtznu (the pig).
+
+The correct option is: A
+------
+Context:
+zwa is a turtle, hmrt is a horse
+
+Question: Based on the above information, is the following statement true or false? hmrt is less likely to race a hare than zwa
+
+Options:
+A) True
+B) False
+
+Reasoning: Horses have a long history of being used in racing due to their speed, agility, and trainability. Hares are also known for their speed, making them natural competitors for horses in racing events.  In contrast, turtles are not known for their speed and typically wouldn't be considered racing animals. While there might be some niche events involving turtles, the concept of a turtle racing a hare is far less common than a horse racing a hare.
+
+The correct option is: B
+------
+Context:
+uwglbllete is a rabbit, ghbrcpywepmu is a alligator
+
+Question: Based on the above information, is the following statement true or false? ghbrcpywepmu is more likely to appear suddenly than uwglbllete
+
+Options:
+A) True
+B) False
+
+Reasoning: Rabbits are known for being skittish prey animals. They tend to be alert and have good senses, making them less likely to appear out of nowhere and more likely to flee if they sense danger.Alligators are ambush predators. They often lie in wait, camouflaged in water or vegetation, until prey comes close. This behavior makes them more likely to surprise their targets with a sudden appearance. Therefore, based on their typical behaviors, ghbrcpywepmu (the alligator) is more likely to appear suddenly than uwglbllete (the rabbit).
+
+The correct option is: B
+------
+Context:
+wmirneshubs is a frog, ioerxj is a kangaroo
+
+Question: Based on the above information, is the following statement true or false? ioerxj is not more likely to win a princess than wmirneshubs
+
+Options:
+A) True
+B) False
+
+Reasoning: Fairy tales and folklore often depict princes charming winning princesses, and these princes are typically portrayed as human or human-like figures.  While the context doesn't specify the nature of winning a princess (through contests, battles, or something else entirely), the concept itself is traditionally associated with human-like characters.  Therefore, there's no clear reason based on their species why ioerxj (the kangaroo) would be more likely than wmirneshubs (the frog) to win a princess in this traditional sense.
+
+The correct option is: A
+------
+Context:
+[[CONTEXT]]
+
+Question: [[QUESTION]]
+
+Options:
+[[OPTIONS]]
+
+Reasoning:
