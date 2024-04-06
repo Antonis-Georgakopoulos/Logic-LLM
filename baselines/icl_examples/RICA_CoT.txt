@@ -35,7 +35,7 @@ Options:
 A) True
 B) False
 
-Reasoning: Horses have a long history of being used in racing due to their speed, agility, and trainability. Hares are also known for their speed, making them natural competitors for horses in racing events.  In contrast, turtles are not known for their speed and typically wouldn't be considered racing animals. While there might be some niche events involving turtles, the concept of a turtle racing a hare is far less common than a horse racing a hare.
+Reasoning: Horses have a long history of being used in racing due to their speed, agility, and trainability. In contrast, turtles are not known for their speed and typically wouldn't be considered racing animals. Therefore, hmrt (horse) is more likely to race a hare than zwa (turtle).
 
 The correct option is: B
 ------
@@ -48,7 +48,8 @@ Options:
 A) True
 B) False
 
-Reasoning: Rabbits are known for being skittish prey animals. They tend to be alert and have good senses, making them less likely to appear out of nowhere and more likely to flee if they sense danger.Alligators are ambush predators. They often lie in wait, camouflaged in water or vegetation, until prey comes close. This behavior makes them more likely to surprise their targets with a sudden appearance. Therefore, based on their typical behaviors, ghbrcpywepmu (the alligator) is more likely to appear suddenly than uwglbllete (the rabbit).
+Reasoning: Rabbits are generally known to be more likely to appear suddenly due to their quick movements and ability to dart away when startled. Alligators, on the other hand, are less likely to appear suddenly since they tend to remain submerged or hidden in water, waiting for prey. Therefore, based on this information, the statement that ghbrcpywepmu is more likely to appear suddenly than uwglbllete is false.
+
 
 The correct option is: B
 ------
@@ -61,7 +62,8 @@ Options:
 A) True
 B) False
 
-Reasoning: Fairy tales and folklore often depict princes charming winning princesses, and these princes are typically portrayed as human or human-like figures.  While the context doesn't specify the nature of winning a princess (through contests, battles, or something else entirely), the concept itself is traditionally associated with human-like characters.  Therefore, there's no clear reason based on their species why ioerxj (the kangaroo) would be more likely than wmirneshubs (the frog) to win a princess in this traditional sense.
+Reasoning: Frogs are often associated with fairy tales and folklore where they might encounter princesses. Kangaroos, however, are not typically part of princess-related stories. Therefore, it is true that ioerxj is not more likely to win a princess than wmirneshubs.
+
 
 The correct option is: A
 ------
