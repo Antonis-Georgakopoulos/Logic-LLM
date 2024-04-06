@@ -106,7 +106,7 @@ class OpenAIModel:
         return generated_text
 
     def generate(self, input_string, temperature = 0.0):
-        if self.model_name in ['text-davinci-002', 'code-davinci-002', 'text-davinci-003']:
+        if self.model_name in ['text-davinci-002', 'code-davinci-002', 'gpt-3.5-turbo-instruct']:
             return self.prompt_generate(input_string, temperature)
         elif self.model_name in ['gpt-4', 'gpt-3.5-turbo']:
             return self.chat_generate(input_string, temperature)
