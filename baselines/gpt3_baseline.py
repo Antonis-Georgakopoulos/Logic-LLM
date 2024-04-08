@@ -107,11 +107,22 @@ class GPT3_Reasoning_Graph_Baseline:
                         print('Error in generating example: ', sample['id'])
 
         # save outputs        
-        with open(os.path.join(self.save_path, f'{self.mode}_{self.dataset_name}_{self.split}_{self.model_name}.json'), 'w') as f:
+
+        # Check for the existence of the save path and create it if necessary
+        path_to_file = os.path.join(self.save_path, f'{self.mode}_{self.dataset_name}_{self.split}_{self.model_name}.json')
+        if not os.path.exists(os.path.dirname(path_to_file)):
+            os.makedirs(os.path.dirname(path_to_file))  # Create parent directories if needed
+
+        # Now proceed with writing the JSON file
+        with open(path_to_file, 'w') as f:
             json.dump(outputs, f, indent=2, ensure_ascii=False)
-    
+     
+     
     def update_answer(self, sample, output):
         label_phrase = self.label_phrase
+        
+        self.write_to_log('output taken from LLM', output)
+        
         generated_answer = output.split(label_phrase)[-1].strip()
         generated_reasoning = output.split(label_phrase)[0].strip()
         dict_output = {'id': sample['id'], 
@@ -120,6 +131,11 @@ class GPT3_Reasoning_Graph_Baseline:
                         'predicted_reasoning': generated_reasoning,
                         'predicted_answer': generated_answer}
         return dict_output
+    
+    def write_to_log(self, message, text):
+        with open('gpt3_baseline_log.txt', 'a') as filename:
+            filename.write(f'{message:}\n{text}')
+        
 
 def parse_args():
     parser = argparse.ArgumentParser()
