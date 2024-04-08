@@ -19,7 +19,7 @@ class Backup_Answer_Generator:
             return self.LLM_backup(id)
         
     def random_backup(self):
-        if self.dataset_name == 'ProntoQA':
+        if self.dataset_name == 'ProntoQA' or self.dataset_name == 'RICA':
             return random.choice(['A', 'B'])
         elif self.dataset_name == 'ProofWriter' or self.dataset_name == 'FOLIO':
             return random.choice(['A', 'B', 'C'])

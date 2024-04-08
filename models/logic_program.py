@@ -22,7 +22,8 @@ class LogicProgramGenerator:
                                'ProntoQA': self.prompt_prontoqa,
                                'ProofWriter': self.prompt_proofwriter,
                                'LogicalDeduction': self.prompt_logicaldeduction, 
-                               'AR-LSAT': self.prompt_arlsat}
+                               'AR-LSAT': self.prompt_arlsat,
+                               'RICA': self.prompt_rica}
         self.load_prompt_templates()
     
     def load_prompt_templates(self):
@@ -64,6 +65,12 @@ class LogicProgramGenerator:
         choices_str = '\n'.join([f'({choice.strip()}' for choice in test_data['options']]).strip()
         full_prompt = self.prompt_template.replace('[[PROBLEM]]', problem).replace('[[QUESTION]]', question)
         full_prompt = full_prompt.replace('[[CHOICES]]', choices_str)
+        return full_prompt
+    
+    def prompt_rica(self, test_data):
+        problem = test_data['context']
+        question = test_data['question'].strip()
+        full_prompt = self.prompt_template.replace('[[PROBLEM]]', problem).replace('[[QUESTION]]', question)
         return full_prompt
 
     def load_raw_dataset(self, split):

@@ -6,6 +6,7 @@ import os
 from tqdm import tqdm
 from symbolic_solvers.z3_solver.sat_problem_solver import LSAT_Z3_Program
 from symbolic_solvers.fol_solver.prover9_solver import FOL_Prover9_Program
+from symbolic_solvers.pyke_solver.pyke_solver import Pyke_Program
 import argparse
 import random
 from backup_answer_generation import Backup_Answer_Generator
@@ -18,14 +19,16 @@ class SelfRefinementEngine:
         self.model_name = args.model_name
         self.dataset_name = args.dataset_name
         self.backup_strategy = args.backup_strategy
-        self.openai_api = OpenAIModel(args.api_key, 'gpt-4', args.stop_words, args.max_new_tokens)
+        self.openai_api = OpenAIModel(args.api_key, self.model_name, args.stop_words, args.max_new_tokens)
         self.current_round = current_round
 
         self.logic_programs = self.load_logic_programs()
         # self.reasoning_results = self.load_inference_results()
 
         program_executor_map = {'AR-LSAT': LSAT_Z3_Program,
-                                'FOLIO': FOL_Prover9_Program}
+                                'FOLIO': FOL_Prover9_Program,
+                                'RICA': Pyke_Program,
+                                'ProntoQA': Pyke_Program}
         self.program_executor = program_executor_map[self.dataset_name]
         self.backup_generator = Backup_Answer_Generator(self.dataset_name, self.backup_strategy, self.args.backup_LLM_result_path)
 
@@ -40,7 +43,7 @@ class SelfRefinementEngine:
     
     def load_prompt(self, program, error_message):
         program = program.strip()
-        error_message = error_message.strip()
+        error_message = str(error_message).strip()
         with open(f'./models/prompts/self-correct-{self.dataset_name}.txt', 'r') as f:
             prompt_template = f.read()
         full_prompt = prompt_template.replace('[[PROGRAM]]', program).replace('[[ERROR MESSAGE]]', error_message)
@@ -79,7 +82,6 @@ class SelfRefinementEngine:
         for example in tqdm(self.logic_programs):
             logic_program = example['raw_logic_programs'][0].strip()
             answer, status, error_message = self.safe_execute_program(example['id'], logic_program)
-
             if status == 'execution error':
                 if not error_message == 'No Output': # this is not execution error, but parsing error
                     # perform self-correction based on the error message

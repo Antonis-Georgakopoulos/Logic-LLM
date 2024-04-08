@@ -26,7 +26,8 @@ class LogicInferenceEngine:
                                 'ProntoQA': Pyke_Program, 
                                 'ProofWriter': Pyke_Program,
                                 'LogicalDeduction': CSP_Program,
-                                'AR-LSAT': LSAT_Z3_Program}
+                                'AR-LSAT': LSAT_Z3_Program,
+                                'RICA': Pyke_Program}
         self.program_executor = program_executor_map[self.dataset_name]
         self.backup_generator = Backup_Answer_Generator(self.dataset_name, self.backup_strategy, self.args.backup_LLM_result_path)
 
@@ -56,6 +57,7 @@ class LogicInferenceEngine:
         answer, error_message = program.execute_program()
         # not executable
         if answer is None:
+            print(f"Error message is: {error_message}")
             answer = self.backup_generator.get_backup_answer(id)
             return answer, 'execution error', error_message
         # successfully executed

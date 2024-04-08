@@ -23,7 +23,8 @@ class Pyke_Program:
             self.flag = False
 
         self.answer_map = {'ProntoQA': self.answer_map_prontoqa, 
-                           'ProofWriter': self.answer_map_proofwriter}
+                           'ProofWriter': self.answer_map_proofwriter,
+                           'RICA': self.answer_map_rica}
 
     def parse_logic_program(self):
         keywords = ['Query:', 'Rules:', 'Facts:', 'Predicates:']
@@ -148,7 +149,7 @@ class Pyke_Program:
         # absolute_path = os.path.abspath(complied_krb_dir)
         # print(absolute_path)
         try:
-            engine = knowledge_engine.engine(self.cache_dir)
+            engine = knowledge_engine.engine(str(self.cache_dir))
             engine.reset()
             engine.activate('rules')
             engine.get_kb('facts')
@@ -179,6 +180,12 @@ class Pyke_Program:
         else:
             return 'B'
 
+    def answer_map_rica(self, result, value_to_check):
+        if result == value_to_check:
+            return 'A'
+        else:
+            return 'B'
+        
 
 if __name__ == "__main__":
 
