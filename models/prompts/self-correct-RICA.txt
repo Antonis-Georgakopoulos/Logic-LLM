@@ -1,0 +1,36 @@
+Task: Given the initial program and the error message, debug the following logic program.
+------
+>>> Initial Program:
+# Predicates:
+LikesFish($x, bool)
+IsBigger($x, $y, bool)
+
+# Facts:
+Bear(xpmlfgjdxwhz, True)
+Hippopotamus(pdbiauv, True)
+
+# Rules:
+Bear($x, True) >>> LikesFish($x, True)
+Hippopotamus($x, True) >>> Not(LikesFish($x, True))
+
+# Query:
+IsBigger(pdbiauv, xpmlfgjdxwhz, True)
+
+>>> Error Message:
+Parsing Error
+
+>>> Corrected Program:
+# Predicates:
+FishesForSalmon($x, bool)
+
+# Facts:
+Bear(xpmlfgjdxwhz, True)
+Hippopotamus(pdbiauv, True)
+
+# Rules:
+Bear($x, True) >>> FishesForSalmon($x, True)
+Hippopotamus($x, True) >>> Not(FishesForSalmon($x, True)) 
+
+# Query:
+Not(MoreLikely(FishesForSalmon(pdbiauv, True), FishesForSalmon(xpmlfgjdxwhz, True))) 
+------
