@@ -1,0 +1,4002 @@
+[
+  {
+    "id": "RICA_191",
+    "context": "gdqrcjb is a rat, sepf is a lion",
+    "question": "Based on the above information, is the following statement true or false? sepf is not more likely to press a lever than gdqrcjb",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3567",
+    "context": "trip cracks the screen while njfkeqjl does not",
+    "question": "Based on the above information, is the following statement true or false? trip is not less irresponsible than njfkeqjl",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5977",
+    "context": "cubpoifoi starts looking for a new job more than ctp",
+    "question": "Based on the above information, is the following statement true or false? ctp is not less proactive than cubpoifoi",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5707",
+    "context": "tiymcujkggph sees another person all the time more than kqtffwkoxul",
+    "question": "Based on the above information, is the following statement true or false? kqtffwkoxul is not more available than tiymcujkggph",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3526",
+    "context": "bhl toots their own horn while dbtubmulx does not",
+    "question": "Based on the above information, is the following statement true or false? dbtubmulx is not more arrogant than bhl",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1616",
+    "context": "jxprjpzrztve floats nste's boat",
+    "question": "Based on the above information, is the following statement true or false? nste is less excited than jxprjpzrztve",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2589",
+    "context": "shhux brings bvwolkipfzd into contact",
+    "question": "Based on the above information, is the following statement true or false? shhux is not less sociable than bvwolkipfzd",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3934",
+    "context": "uuiuc plays another person's role while qlygh does not",
+    "question": "Based on the above information, is the following statement true or false? qlygh is not less interchangeable than uuiuc",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4845",
+    "context": "ckuowigescm plays another person's music while rhyvogdksezf does not",
+    "question": "Based on the above information, is the following statement true or false? rhyvogdksezf is a more entertainer than ckuowigescm",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7990",
+    "context": "fccgk breaks both of their legs more than dtmlqaejpr",
+    "question": "Based on the above information, is the following statement true or false? dtmlqaejpr is less painfull than fccgk",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2147",
+    "context": "xygofs stops bothering ooy",
+    "question": "Based on the above information, is the following statement true or false? ooy is not more smart than xygofs",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3568",
+    "context": "njfkeqjl cracks the screen while trip does not",
+    "question": "Based on the above information, is the following statement true or false? trip is not more irresponsible than njfkeqjl",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6303",
+    "context": "xfrukemopbk clenches another person's fists more than ondtmzstslft",
+    "question": "Based on the above information, is the following statement true or false? ondtmzstslft is less parental than xfrukemopbk",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2815",
+    "context": "jyagemvabqnm calls fxucmli names",
+    "question": "Based on the above information, is the following statement true or false? fxucmli is more mean than jyagemvabqnm",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3553",
+    "context": "bwbhlwh keeps an eye on another person while yiitqfn does not",
+    "question": "Based on the above information, is the following statement true or false? yiitqfn is more wary than bwbhlwh",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_964",
+    "context": "tng misses an opportunity",
+    "question": "Based on the above information, is the following statement true or false? tng is not more ambitious than lqdzfqf",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4369",
+    "context": "kgzekrs brings another person back to life while asbciwkbztai does not",
+    "question": "Based on the above information, is the following statement true or false? asbciwkbztai is not less skilled than kgzekrs",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3758",
+    "context": "tfhrx works out their salvation while aleghu does not",
+    "question": "Based on the above information, is the following statement true or false? aleghu is more aware than tfhrx",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7967",
+    "context": "mlwjopbix gets really bad while ezapvuks does not",
+    "question": "Based on the above information, is the following statement true or false? mlwjopbix is not less mean than ezapvuks",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_77",
+    "context": "ypwmpqie is a rat, ytkgajvgqs is a lobster",
+    "question": "Based on the above information, is the following statement true or false? ytkgajvgqs is not more likely to be in a maze than ypwmpqie",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5464",
+    "context": "tmxvp bakes cookies while gffbp does not",
+    "question": "Based on the above information, is the following statement true or false? gffbp is more eager than tmxvp",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_905",
+    "context": "ypinzxof is a football player, qgsm is not",
+    "question": "Based on the above information, is the following statement true or false? qgsm is not more likely to run than ypinzxof",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_794",
+    "context": "wxp is kgt's chief",
+    "question": "Based on the above information, is the following statement true or false? kgt is less likely to govern city than wxp",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7800",
+    "context": "ctqpcoai helps finishes another person's work more than ubjulujycrl",
+    "question": "Based on the above information, is the following statement true or false? ubjulujycrl is not more determined than ctqpcoai",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4183",
+    "context": "gbytkybyeqbl bothers another person so much more than zrwoacluyszq",
+    "question": "Based on the above information, is the following statement true or false? zrwoacluyszq is not more childish than gbytkybyeqbl",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5588",
+    "context": "jwgpb sounds interesting while tjbiltcz does not",
+    "question": "Based on the above information, is the following statement true or false? jwgpb is less adventurous than tjbiltcz",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3877",
+    "context": "cnpmoxbejvj also gave another person more than knds",
+    "question": "Based on the above information, is the following statement true or false? knds is less of a giver than cnpmoxbejvj",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5489",
+    "context": "ggbaumvcbn is familiar to another person's ear more than iurwtiiui",
+    "question": "Based on the above information, is the following statement true or false? ggbaumvcbn is not more knowning than iurwtiiui",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2319",
+    "context": "tpswbfzs makes tlhssav stronger",
+    "question": "Based on the above information, is the following statement true or false? tlhssav is less brave than tpswbfzs",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2948",
+    "context": "wpbegx opens szbbgipn's eyes slowly",
+    "question": "Based on the above information, is the following statement true or false? szbbgipn is less cautious than wpbegx",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1364",
+    "context": "tvc walks in tjkzkgx's neighborhood",
+    "question": "Based on the above information, is the following statement true or false? tjkzkgx is less brave than tvc",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2662",
+    "context": "gjysjrmpcad rubs mmaxqgjx's back",
+    "question": "Based on the above information, is the following statement true or false? mmaxqgjx is not less compassionate than gjysjrmpcad",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5815",
+    "context": "uhnsvpbsmzg provides another person outlet more than tidngwq",
+    "question": "Based on the above information, is the following statement true or false? tidngwq is not more understanding than uhnsvpbsmzg",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5833",
+    "context": "prexlrjwx hunts the eggs more than stdsnp",
+    "question": "Based on the above information, is the following statement true or false? stdsnp is not more uncivilized than prexlrjwx",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5505",
+    "context": "kuuf arrives the next day while tzguanfjymn does not",
+    "question": "Based on the above information, is the following statement true or false? tzguanfjymn is more responsible than kuuf",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6471",
+    "context": "hvt dates another person's girlfriend more than troeacdybtc",
+    "question": "Based on the above information, is the following statement true or false? troeacdybtc is less cruel than hvt",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5340",
+    "context": "rarzwpvjee gets so angry while ymquvb does not",
+    "question": "Based on the above information, is the following statement true or false? ymquvb is not less moody than rarzwpvjee",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2026",
+    "context": "iexhrxi stops kissing htqrere",
+    "question": "Based on the above information, is the following statement true or false? iexhrxi is not less furious than htqrere",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3785",
+    "context": "xsvykghlpzw makes a difference while npnoyfrd does not",
+    "question": "Based on the above information, is the following statement true or false? npnoyfrd is not more supportive than xsvykghlpzw",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2951",
+    "context": "myhh opens nzd's eyes slowly",
+    "question": "Based on the above information, is the following statement true or false? nzd is not more cautious than myhh",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5206",
+    "context": "buyf breaks the camel 's back while twgkuqlwjdsl does not",
+    "question": "Based on the above information, is the following statement true or false? twgkuqlwjdsl is more demanding than buyf",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1735",
+    "context": "mhm treats bpifiezkhze differently",
+    "question": "Based on the above information, is the following statement true or false? mhm is less unfair than bpifiezkhze",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1247",
+    "context": "stybaxgxtatq buys huvura's son",
+    "question": "Based on the above information, is the following statement true or false? huvura is not more giving than stybaxgxtatq",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5671",
+    "context": "isseudc avoids another person conflict while vojwdileq does not",
+    "question": "Based on the above information, is the following statement true or false? vojwdileq is not more nervous than isseudc",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4814",
+    "context": "dqkkjj follows another person course while vplqb does not",
+    "question": "Based on the above information, is the following statement true or false? dqkkjj is less responsible than vplqb",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6297",
+    "context": "djzu would n't stop stopping for uabxfrpes",
+    "question": "Based on the above information, is the following statement true or false? uabxfrpes is more annoying than djzu",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4521",
+    "context": "nnwr lives with another person's family while cexdpkpze does not",
+    "question": "Based on the above information, is the following statement true or false? cexdpkpze is less caring than nnwr",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3958",
+    "context": "laoiwfumffau would n't eat more than yyoe",
+    "question": "Based on the above information, is the following statement true or false? yyoe is not more dieting than laoiwfumffau",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2118",
+    "context": "hwzmqovwr uses as iea's instrument",
+    "question": "Based on the above information, is the following statement true or false? iea is not more determined than hwzmqovwr",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1899",
+    "context": "ommxykng rushes towards ipziqjnvsovp",
+    "question": "Based on the above information, is the following statement true or false? ipziqjnvsovp is more aggressive than ommxykng",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2941",
+    "context": "wmjzssv comes to jzdodjnxyiec understanding more than jzdodjnxyiec",
+    "question": "Based on the above information, is the following statement true or false? jzdodjnxyiec is less knowledgeable than wmjzssv",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_18",
+    "context": "hxxf is a horse, jcgvhdsyd is a frog",
+    "question": "Based on the above information, is the following statement true or false? jcgvhdsyd is not more likely to be in a parade than hxxf",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_311",
+    "context": "oxookyvytwvi is a bear, kdxghnu is a alligator",
+    "question": "Based on the above information, is the following statement true or false? kdxghnu is not more likely to swim than oxookyvytwvi",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5132",
+    "context": "ilchiv says would help people while xghepgmhfqpv does not",
+    "question": "Based on the above information, is the following statement true or false? ilchiv is less helpful than xghepgmhfqpv",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2045",
+    "context": "pnyxdrowrtx punches svx in the face",
+    "question": "Based on the above information, is the following statement true or false? svx is not less hurtful than pnyxdrowrtx",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2174",
+    "context": "zsppnex builds csynbolnrt's nest",
+    "question": "Based on the above information, is the following statement true or false? csynbolnrt is more caring than zsppnex",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4082",
+    "context": "qhmktiganza hurts another person so much more than huoyjn",
+    "question": "Based on the above information, is the following statement true or false? huoyjn is less hurtful than qhmktiganza",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1886",
+    "context": "tbx puts yjrzofr back",
+    "question": "Based on the above information, is the following statement true or false? yjrzofr is less supportive than tbx",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3043",
+    "context": "drev takes ppm's share",
+    "question": "Based on the above information, is the following statement true or false? ppm is more thankful than drev",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6779",
+    "context": "oosyyxcdud sees a show more than wzls",
+    "question": "Based on the above information, is the following statement true or false? oosyyxcdud is not less curious than wzls",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2610",
+    "context": "hoex waits for tvqycclc's return",
+    "question": "Based on the above information, is the following statement true or false? hoex is more patient than tvqycclc",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5777",
+    "context": "wjgkuinwtsd is at an outdoor mall more than poajadazp",
+    "question": "Based on the above information, is the following statement true or false? wjgkuinwtsd is not less athletic than poajadazp",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7516",
+    "context": "lsnbecqdcj has finally tried more than jpoowt",
+    "question": "Based on the above information, is the following statement true or false? jpoowt is less inexperienced than lsnbecqdcj",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7872",
+    "context": "cno shapes their lives more than opnhvjej",
+    "question": "Based on the above information, is the following statement true or false? opnhvjej is not less thoughtful than cno",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6953",
+    "context": "wnd takes it to a veterinarian more than fimuvyvokx",
+    "question": "Based on the above information, is the following statement true or false? wnd is not more worried than fimuvyvokx",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7677",
+    "context": "jmbxrkoah prevents another person attempt more than wbiqvidxvu",
+    "question": "Based on the above information, is the following statement true or false? wbiqvidxvu is less wise than jmbxrkoah",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5202",
+    "context": "ggbq goes another person's ways while sbqtvtrxhgh does not",
+    "question": "Based on the above information, is the following statement true or false? sbqtvtrxhgh is not more adherent than ggbq",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3723",
+    "context": "rkvtayr changes a flat tire while uijagzswo does not",
+    "question": "Based on the above information, is the following statement true or false? rkvtayr is not more strong than uijagzswo",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_102",
+    "context": "ernfq is a bear, pjuwwtx is a rat",
+    "question": "Based on the above information, is the following statement true or false? pjuwwtx is not more likely to fish for salmon than ernfq",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6534",
+    "context": "mlwcrudae is on vacation in florida more than ngklqlr",
+    "question": "Based on the above information, is the following statement true or false? ngklqlr is not more adventurous than mlwcrudae",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7606",
+    "context": "gztldlynj goes horseback riding more than jhvodcs",
+    "question": "Based on the above information, is the following statement true or false? jhvodcs is more athletic than gztldlynj",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4005",
+    "context": "fympqqfvdde changes their policy while kdpsxl does not",
+    "question": "Based on the above information, is the following statement true or false? fympqqfvdde is not less abrupt than kdpsxl",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_843",
+    "context": "rrf is a broker, fgwvkwfrsyoe is a lawyer",
+    "question": "Based on the above information, is the following statement true or false? fgwvkwfrsyoe is more likely to meet business deal than rrf",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2119",
+    "context": "pjaz provides utdtssepmr a service",
+    "question": "Based on the above information, is the following statement true or false? pjaz is more competent than utdtssepmr",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2849",
+    "context": "nkfdfsbx throws zcbalxta a shower",
+    "question": "Based on the above information, is the following statement true or false? zcbalxta is not less kind than nkfdfsbx",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_657",
+    "context": "njftfyjm is a bird, qcnkofpngx is a fish",
+    "question": "Based on the above information, is the following statement true or false? qcnkofpngx is less likely to head south than njftfyjm",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7089",
+    "context": "ugpol hides their face in their hands more than vtwjyluryrp",
+    "question": "Based on the above information, is the following statement true or false? vtwjyluryrp is more ashamed than ugpol",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_378",
+    "context": "cla is a wolf, wxpzm is a dog",
+    "question": "Based on the above information, is the following statement true or false? wxpzm is not more likely to mother its cub than cla",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4084",
+    "context": "szuugeek hurts another person so much more than ylinrl",
+    "question": "Based on the above information, is the following statement true or false? ylinrl is not more hurtful than szuugeek",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5860",
+    "context": "sdv has to go to school more than kdnshvqztn",
+    "question": "Based on the above information, is the following statement true or false? kdnshvqztn is more good than sdv",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7218",
+    "context": "kzrq continues their course more than tlshv",
+    "question": "Based on the above information, is the following statement true or false? tlshv is not less dedicated than kzrq",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1346",
+    "context": "hqjcro is discovered in wiobq's bed",
+    "question": "Based on the above information, is the following statement true or false? wiobq is less shady than hqjcro",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_106",
+    "context": "mxisljxxowyi is a snake, ihubdirm is a chimpanzee",
+    "question": "Based on the above information, is the following statement true or false? mxisljxxowyi is not less likely to be in a garden than ihubdirm",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6230",
+    "context": "ifapnerboo tastes the sauce more than wvvcls",
+    "question": "Based on the above information, is the following statement true or false? ifapnerboo is more brave than wvvcls",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4432",
+    "context": "jieakakln eats chinese food while lvtkd does not",
+    "question": "Based on the above information, is the following statement true or false? lvtkd is more starving than jieakakln",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6527",
+    "context": "toqzffjkomfi is n't paying much attention while wkixzsze is",
+    "question": "Based on the above information, is the following statement true or false? toqzffjkomfi is not less disinterested than wkixzsze",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_145",
+    "context": "yxrxgrccux is a snake, jwcupoqq is a horse",
+    "question": "Based on the above information, is the following statement true or false? yxrxgrccux is less likely to be in the bible than jwcupoqq",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1744",
+    "context": "yxshhl pays all of xsmtskaaolo's bills",
+    "question": "Based on the above information, is the following statement true or false? yxshhl is not more helpful than xsmtskaaolo",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1873",
+    "context": "bwmxqqfp makes fztu angry",
+    "question": "Based on the above information, is the following statement true or false? bwmxqqfp is more irritating than fztu",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3377",
+    "context": "ifqugsp takes the stairs while byaac does not",
+    "question": "Based on the above information, is the following statement true or false? byaac is not more healthy than ifqugsp",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4873",
+    "context": "saokaptyjrx apologizes profusely while hjcy does not",
+    "question": "Based on the above information, is the following statement true or false? hjcy is not more remorseful than saokaptyjrx",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1954",
+    "context": "kpsulo resumes lgixwobu's work",
+    "question": "Based on the above information, is the following statement true or false? kpsulo is not less interested than lgixwobu",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_571",
+    "context": "ejhjpnjolfb is a wolf, rmtipsdd is a chicken",
+    "question": "Based on the above information, is the following statement true or false? ejhjpnjolfb is more likely to be in a forest than rmtipsdd",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1176",
+    "context": "rsmqd offered pafh a gift",
+    "question": "Based on the above information, is the following statement true or false? pafh is not less generous than rsmqd",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6060",
+    "context": "joamjpra pays no attention to another person more than wiudpyqy",
+    "question": "Based on the above information, is the following statement true or false? wiudpyqy is not more unconcerned than joamjpra",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4060",
+    "context": "caru leaves heading to another person while dbiyjakzo does not",
+    "question": "Based on the above information, is the following statement true or false? dbiyjakzo is not more talented than caru",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6663",
+    "context": "jyrtqizkumpx tells another person would go more than hnfknn",
+    "question": "Based on the above information, is the following statement true or false? hnfknn is less controlling than jyrtqizkumpx",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6289",
+    "context": "lvdokaw takes care of their needs more than mepgbybyq",
+    "question": "Based on the above information, is the following statement true or false? mepgbybyq is not less caring than lvdokaw",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2728",
+    "context": "urdbsjfc rides fyfuhsihxst's bike home",
+    "question": "Based on the above information, is the following statement true or false? fyfuhsihxst is not more active than urdbsjfc",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1093",
+    "context": "ovlpl pays no attention to oollsxbutopf",
+    "question": "Based on the above information, is the following statement true or false? ovlpl is less independent than oollsxbutopf",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1825",
+    "context": "tabjgbeikahm kneels in front of xdxhudfso",
+    "question": "Based on the above information, is the following statement true or false? tabjgbeikahm is less polite than xdxhudfso",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1536",
+    "context": "ybujozjn lets nwutoawjcz go",
+    "question": "Based on the above information, is the following statement true or false? nwutoawjcz is not less understanding than ybujozjn",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4787",
+    "context": "bqtnr listens to another person's stories while cmapgjzj does not",
+    "question": "Based on the above information, is the following statement true or false? bqtnr is not less interested than cmapgjzj",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2242",
+    "context": "iqmjkscra impresses cymkoi's boyfriend",
+    "question": "Based on the above information, is the following statement true or false? iqmjkscra is not more talented than cymkoi",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_224",
+    "context": "hraewx is a monkey, jcift is a crocodile",
+    "question": "Based on the above information, is the following statement true or false? jcift is less likely to throw a banana than hraewx",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1239",
+    "context": "ugvhwedz invites lqrdskbgxci to go to a party",
+    "question": "Based on the above information, is the following statement true or false? lqrdskbgxci is less inclusive than ugvhwedz",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2543",
+    "context": "pgkpgv eats qhpnxy's cookies",
+    "question": "Based on the above information, is the following statement true or false? qhpnxy is not less eager than pgkpgv",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7858",
+    "context": "rslaa gets an oil change more than trb",
+    "question": "Based on the above information, is the following statement true or false? trb is more dutiful than rslaa",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4190",
+    "context": "oypjvtm does not make the team while pceyjfdmuh does",
+    "question": "Based on the above information, is the following statement true or false? oypjvtm is less unskilled than pceyjfdmuh",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_310",
+    "context": "kdxghnu is a bear, oxookyvytwvi is a alligator",
+    "question": "Based on the above information, is the following statement true or false? kdxghnu is not less likely to swim than oxookyvytwvi",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6483",
+    "context": "nvcktzznyb starts school more than hhbvvrbn",
+    "question": "Based on the above information, is the following statement true or false? hhbvvrbn is less anxious than nvcktzznyb",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3839",
+    "context": "gowe sends another person a text message while lrybdnidnuf does not",
+    "question": "Based on the above information, is the following statement true or false? lrybdnidnuf is not less helpful than gowe",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1440",
+    "context": "mzhbi changes zfgpefp's diet",
+    "question": "Based on the above information, is the following statement true or false? zfgpefp is not less motivated than mzhbi",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_661",
+    "context": "baozolh is a pianist, hzjzgre is a violinist",
+    "question": "Based on the above information, is the following statement true or false? baozolh is more likely to perform concert than hzjzgre",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3700",
+    "context": "xggnlfazm eats too much candy while cta does not",
+    "question": "Based on the above information, is the following statement true or false? cta is not less sick than xggnlfazm",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3072",
+    "context": "zurslxskge is able to estimate people more than ydmzkgqorv",
+    "question": "Based on the above information, is the following statement true or false? zurslxskge is less logical than ydmzkgqorv",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5345",
+    "context": "cyfwnqk takes their mom while xvrtguw does not",
+    "question": "Based on the above information, is the following statement true or false? cyfwnqk is not less mean than xvrtguw",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5722",
+    "context": "sbloa sees another person much more than jceaxigdxvzc",
+    "question": "Based on the above information, is the following statement true or false? jceaxigdxvzc is more loving than sbloa",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2303",
+    "context": "ivjugxh associates with rdd's name",
+    "question": "Based on the above information, is the following statement true or false? rdd is not more opinionated than ivjugxh",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6265",
+    "context": "nnbp doubts their ability more than tkeqcq",
+    "question": "Based on the above information, is the following statement true or false? tkeqcq is not less lethargic than nnbp",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3974",
+    "context": "cvxyf wants a new dress while hvsozssztby does not",
+    "question": "Based on the above information, is the following statement true or false? hvsozssztby is more spoiled than cvxyf",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2893",
+    "context": "oov takes qeqvk food",
+    "question": "Based on the above information, is the following statement true or false? qeqvk is more immoral than oov",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7779",
+    "context": "cpghhoypf calls a locksmith more than ocea",
+    "question": "Based on the above information, is the following statement true or false? ocea is more smart than cpghhoypf",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7166",
+    "context": "ljtcor wants a drink more than qrioxgs",
+    "question": "Based on the above information, is the following statement true or false? ljtcor is more thirsty than qrioxgs",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4158",
+    "context": "byyrhrsfr finds one on sale while eplkakajhweg does not",
+    "question": "Based on the above information, is the following statement true or false? eplkakajhweg is not less smart than byyrhrsfr",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3242",
+    "context": "mknj sees all of yuw's friends",
+    "question": "Based on the above information, is the following statement true or false? yuw is less judgmental than mknj",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3869",
+    "context": "quc gives another person a share while gmlz does not",
+    "question": "Based on the above information, is the following statement true or false? gmlz is not less considerate than quc",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2651",
+    "context": "qfxouzou gets to know koh",
+    "question": "Based on the above information, is the following statement true or false? koh is not less smart than qfxouzou",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1627",
+    "context": "hqhal is a child, gzbyszaks is a teenager",
+    "question": "Based on the above information, is the following statement true or false? hqhal is less confused than gzbyszaks",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_262",
+    "context": "dgsiw is a shark, dcnveqve is a duck",
+    "question": "Based on the above information, is the following statement true or false? dgsiw is not less likely to be in the ocean than dcnveqve",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6590",
+    "context": "gflwec talks to another person's boss more than fvml",
+    "question": "Based on the above information, is the following statement true or false? gflwec is more considerate than fvml",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4362",
+    "context": "fkiofq leaves the country while plqqaxftl does not",
+    "question": "Based on the above information, is the following statement true or false? plqqaxftl is not less likely to be fleeing than fkiofq",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_8125",
+    "context": "pmkujkiszac calls the police for help while nvmldwop does not",
+    "question": "Based on the above information, is the following statement true or false? nvmldwop is not more scared than pmkujkiszac",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4669",
+    "context": "nanbkiob boos another person off the stage while otf does not",
+    "question": "Based on the above information, is the following statement true or false? otf is not more rude than nanbkiob",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6790",
+    "context": "chmkiup welcomes another person back more than dbgesasaqd",
+    "question": "Based on the above information, is the following statement true or false? dbgesasaqd is less happy than chmkiup",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2339",
+    "context": "xxihkrc requires minuvxlfvlaf's attention",
+    "question": "Based on the above information, is the following statement true or false? minuvxlfvlaf is not more social than xxihkrc",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4053",
+    "context": "xspxvlqo eats another person out of house and home while ckmhr does not",
+    "question": "Based on the above information, is the following statement true or false? xspxvlqo is not more greedy than ckmhr",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6680",
+    "context": "ctknfuej turns another person's back on another person more than wfddyk",
+    "question": "Based on the above information, is the following statement true or false? ctknfuej is more betraying than wfddyk",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_462",
+    "context": "dnxlherpk is a bee, uphdv is a seal",
+    "question": "Based on the above information, is the following statement true or false? uphdv is not more likely to be in a field of flowers than dnxlherpk",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4318",
+    "context": "xkhjvdebjfxr smells so bad while penimzsq does not",
+    "question": "Based on the above information, is the following statement true or false? penimzsq is more stinky than xkhjvdebjfxr",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7300",
+    "context": "vanxkubie says something more than yowlcyi",
+    "question": "Based on the above information, is the following statement true or false? yowlcyi is less talkative than vanxkubie",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_575",
+    "context": "fku is a wolf, czeyvx is a chicken",
+    "question": "Based on the above information, is the following statement true or false? czeyvx is not less likely to be in a forest than fku",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3198",
+    "context": "fkscrmlyc is taller than ikyxjhlgn",
+    "question": "Based on the above information, is the following statement true or false? fkscrmlyc is less tall than ikyxjhlgn",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_185",
+    "context": "bznjbal is a fish, koteow is a goat",
+    "question": "Based on the above information, is the following statement true or false? koteow is not more likely to live underwater than bznjbal",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6367",
+    "context": "poy moves their furniture more than edxsk",
+    "question": "Based on the above information, is the following statement true or false? edxsk is not less hardworking than poy",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4282",
+    "context": "bwrjao teaches another person anything while kodsp does not",
+    "question": "Based on the above information, is the following statement true or false? kodsp is less helpful than bwrjao",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7927",
+    "context": "rnzbhfogpb gives another person control more than eacsinzubqsk",
+    "question": "Based on the above information, is the following statement true or false? eacsinzubqsk is not more accomodating than rnzbhfogpb",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1913",
+    "context": "zdtngxx asks gzfqif's friend for advice",
+    "question": "Based on the above information, is the following statement true or false? gzfqif is not more confused than zdtngxx",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_288",
+    "context": "jkpiv is a lion, ewphxowsty is a owl",
+    "question": "Based on the above information, is the following statement true or false? ewphxowsty is not less likely to be in the veldt than jkpiv",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1035",
+    "context": "qgy plays vqjc's game",
+    "question": "Based on the above information, is the following statement true or false? vqjc is more ambitious than qgy",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6361",
+    "context": "ekwponu decides to run for president more than oeyeoblsphi",
+    "question": "Based on the above information, is the following statement true or false? oeyeoblsphi is not less hard working than ekwponu",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6817",
+    "context": "fpbrvraou returns to their classroom more than smrwsvqgr",
+    "question": "Based on the above information, is the following statement true or false? smrwsvqgr is not less industrious than fpbrvraou",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5242",
+    "context": "sznq becomes a father while wnnygq does not",
+    "question": "Based on the above information, is the following statement true or false? wnnygq is more successful than sznq",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4944",
+    "context": "ihzmayiqvs wins a contest while qetuz does not",
+    "question": "Based on the above information, is the following statement true or false? qetuz is not more lucky than ihzmayiqvs",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_763",
+    "context": "ajhxah is the chef, lxnag is the bread chicken",
+    "question": "Based on the above information, is the following statement true or false? ajhxah is less bread chicken than lxnag",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_576",
+    "context": "czeyvx is a wolf, fku is a chicken",
+    "question": "Based on the above information, is the following statement true or false? fku is not less likely to be in a forest than czeyvx",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_8174",
+    "context": "ntat is more round than teejfxxd",
+    "question": "Based on the above information, is the following statement true or false? ntat is better to store thing than teejfxxd",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3855",
+    "context": "btsfcvckgr lives another person's life while yorp does not",
+    "question": "Based on the above information, is the following statement true or false? btsfcvckgr is not less understanding than yorp",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7124",
+    "context": "vaonog has never noticed wcx",
+    "question": "Based on the above information, is the following statement true or false? vaonog is less oblivious than wcx",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5837",
+    "context": "xbgyd has been more severely injured than gyuqcvs",
+    "question": "Based on the above information, is the following statement true or false? xbgyd is not more combative than gyuqcvs",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5572",
+    "context": "yrfhop eats sandwiches while uhrcstojwb does not",
+    "question": "Based on the above information, is the following statement true or false? uhrcstojwb is less conventional than yrfhop",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_8164",
+    "context": "qqckp decides to break up with another person more than aujbjopybegz",
+    "question": "Based on the above information, is the following statement true or false? aujbjopybegz is less cruel than qqckp",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_47",
+    "context": "arzofktkp is a dog, ohsn is a fox",
+    "question": "Based on the above information, is the following statement true or false? ohsn is not less likely to guide a blind person than arzofktkp",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2642",
+    "context": "nclb is driving zfiqhqaaifrh crazy",
+    "question": "Based on the above information, is the following statement true or false? zfiqhqaaifrh is less erratic than nclb",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_441",
+    "context": "bvowurdnlmwz is a fox, njnfw is a kangaroo",
+    "question": "Based on the above information, is the following statement true or false? njnfw is more likely to be in a box than bvowurdnlmwz",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2322",
+    "context": "urfbxmtadiv makes atr stronger",
+    "question": "Based on the above information, is the following statement true or false? atr is not less brave than urfbxmtadiv",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5899",
+    "context": "ubf kills another person animal more than qbfqpgem",
+    "question": "Based on the above information, is the following statement true or false? qbfqpgem is not less brutal than ubf",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_204",
+    "context": "lhgdoazpkaw is a tiger, vdvdnia is a dolphin",
+    "question": "Based on the above information, is the following statement true or false? vdvdnia is not more likely to drink water than lhgdoazpkaw",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7067",
+    "context": "sls gets a bike more than uyszrqviwhou",
+    "question": "Based on the above information, is the following statement true or false? sls is not more ambitious than uyszrqviwhou",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1204",
+    "context": "dybvd gives ybkjqmmhcqz an idea",
+    "question": "Based on the above information, is the following statement true or false? dybvd is not more convincing than ybkjqmmhcqz",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4172",
+    "context": "ssvddsp plays football after school while bzvxjyfptyro does not",
+    "question": "Based on the above information, is the following statement true or false? ssvddsp is less athletic than bzvxjyfptyro",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_115",
+    "context": "qfgomfcrapm is a cow, dmdnxkk is a pig",
+    "question": "Based on the above information, is the following statement true or false? qfgomfcrapm is less low at milking time than dmdnxkk",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7418",
+    "context": "anyxyktst inherits as another person trait more than yuwo",
+    "question": "Based on the above information, is the following statement true or false? anyxyktst is less affectionate than yuwo",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5045",
+    "context": "kdleinuk admires another person's work while eiv does not",
+    "question": "Based on the above information, is the following statement true or false? kdleinuk is not more admirier than eiv",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_716",
+    "context": "dbrkkbcd is vksucpzzni's parent",
+    "question": "Based on the above information, is the following statement true or false? vksucpzzni is more likely to raise his child than dbrkkbcd",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_251",
+    "context": "ufvfwntiwcil is a lion, rscfi is a pig",
+    "question": "Based on the above information, is the following statement true or false? rscfi is not more likely to roar than ufvfwntiwcil",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_747",
+    "context": "owtqamn is a singer, iclkxecahwf is not",
+    "question": "Based on the above information, is the following statement true or false? iclkxecahwf is more likely to perform performance than owtqamn",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7222",
+    "context": "siundn takes pictures of it while huclrgp does not",
+    "question": "Based on the above information, is the following statement true or false? huclrgp is more interested than siundn",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3690",
+    "context": "ctpta would love another person more than ndkqhozvm",
+    "question": "Based on the above information, is the following statement true or false? ctpta is less amiable than ndkqhozvm",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1546",
+    "context": "gwruwn hears xvtxzbwhzgm's words",
+    "question": "Based on the above information, is the following statement true or false? gwruwn is not less patient than xvtxzbwhzgm",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3455",
+    "context": "avdklvplec makes the coffee while rqfh does not",
+    "question": "Based on the above information, is the following statement true or false? rqfh is not more skillful than avdklvplec",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3942",
+    "context": "lpfldajfsoyq was immediately turned while xrcogiijau was not",
+    "question": "Based on the above information, is the following statement true or false? lpfldajfsoyq is more curious than xrcogiijau",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3682",
+    "context": "cvwtzyo finishes another person's work while popus does not",
+    "question": "Based on the above information, is the following statement true or false? popus is not less determined than cvwtzyo",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6776",
+    "context": "zurbhguyl sees a show more than xgkuubskinqv",
+    "question": "Based on the above information, is the following statement true or false? zurbhguyl is less curious than xgkuubskinqv",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3525",
+    "context": "dbtubmulx toots their own horn while bhl does not",
+    "question": "Based on the above information, is the following statement true or false? dbtubmulx is not less arrogant than bhl",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7866",
+    "context": "bfvycaizo helps another person much more than mzxehwjcpv",
+    "question": "Based on the above information, is the following statement true or false? mzxehwjcpv is not more charming than bfvycaizo",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4155",
+    "context": "qis finds one on sale while gkvv does not",
+    "question": "Based on the above information, is the following statement true or false? gkvv is less smart than qis",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4481",
+    "context": "dsiwlmhtp causes trouble while mzntnislrvqb does not",
+    "question": "Based on the above information, is the following statement true or false? dsiwlmhtp is not more mean than mzntnislrvqb",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4491",
+    "context": "tijwwhmya would help another person while zozdtoj does not",
+    "question": "Based on the above information, is the following statement true or false? zozdtoj is more friendly than tijwwhmya",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7033",
+    "context": "ylrepi calls another person's insurance company more than tydfbhhk",
+    "question": "Based on the above information, is the following statement true or false? tydfbhhk is not more pushy than ylrepi",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_233",
+    "context": "jzpypsxxpurg is a snake, hgjppo is a giraffe",
+    "question": "Based on the above information, is the following statement true or false? hgjppo is not more likely to be rude than jzpypsxxpurg",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6149",
+    "context": "aunuzepi makes their name more than jkwhpjy",
+    "question": "Based on the above information, is the following statement true or false? aunuzepi is not more important than jkwhpjy",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6655",
+    "context": "owblzaswbl shoots the messenger more than rqxvwqhnzd",
+    "question": "Based on the above information, is the following statement true or false? rqxvwqhnzd is not less self defeating than owblzaswbl",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3739",
+    "context": "ogtvkuavox considers another person example more than zoisqawx",
+    "question": "Based on the above information, is the following statement true or false? zoisqawx is more likely to be observing than ogtvkuavox",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1991",
+    "context": "cpnjctjmzdl holds zte close",
+    "question": "Based on the above information, is the following statement true or false? zte is not less loving than cpnjctjmzdl",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4660",
+    "context": "jupsyyhhs reaches their peak while mnzsodvvflr does not",
+    "question": "Based on the above information, is the following statement true or false? mnzsodvvflr is more successful than jupsyyhhs",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_502",
+    "context": "jismwrvlcwm is a bear, pkglqzowyxn is a scorpion",
+    "question": "Based on the above information, is the following statement true or false? jismwrvlcwm is not more likely to hunt a rabbit than pkglqzowyxn",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6417",
+    "context": "oaaczuyray makes coffee more than idwxgww",
+    "question": "Based on the above information, is the following statement true or false? idwxgww is less drowsy than oaaczuyray",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6728",
+    "context": "xljaj puts another person's arms more than dsgyptq",
+    "question": "Based on the above information, is the following statement true or false? xljaj is more friendly than dsgyptq",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7888",
+    "context": "kaxwdfa brings children into the world more than lecaavkxer",
+    "question": "Based on the above information, is the following statement true or false? lecaavkxer is less a father than kaxwdfa",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4651",
+    "context": "wacujgsxmldp is a young girl, dcrprdpracjb is not",
+    "question": "Based on the above information, is the following statement true or false? dcrprdpracjb is not more happy than wacujgsxmldp",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1031",
+    "context": "ffiuhtg is not more crafty than lwxyrdp",
+    "question": "Based on the above information, is the following statement true or false? lwxyrdp is not less crafty than ffiuhtg",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7716",
+    "context": "sylq learns to play the violin more than vxphhtg",
+    "question": "Based on the above information, is the following statement true or false? vxphhtg is not more musical than sylq",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5733",
+    "context": "oeflemrdbkw takes it anyway while xqkwgapz does not",
+    "question": "Based on the above information, is the following statement true or false? xqkwgapz is less thoughtless than oeflemrdbkw",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3000",
+    "context": "rtwr gives dnewybtfvte's names",
+    "question": "Based on the above information, is the following statement true or false? rtwr is less helpful than dnewybtfvte",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4510",
+    "context": "hdgndjg visits their aunt while iqoxcyjksvb does not",
+    "question": "Based on the above information, is the following statement true or false? iqoxcyjksvb is more concerned for others than hdgndjg",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1455",
+    "context": "puvi requires isqa's attention",
+    "question": "Based on the above information, is the following statement true or false? isqa is more aggressive than puvi",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_577",
+    "context": "ubxnyrmjj is a bear, koymssqgoenk is a bird",
+    "question": "Based on the above information, is the following statement true or false? ubxnyrmjj is more likely to climb a tree than koymssqgoenk",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_524",
+    "context": "rtmbcbz is a elephant, ajwzulmpsyv is a tiger",
+    "question": "Based on the above information, is the following statement true or false? ajwzulmpsyv is more likely to carry a trunk than rtmbcbz",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3015",
+    "context": "ktgzdppho improves poahljyrz's health more than poahljyrz",
+    "question": "Based on the above information, is the following statement true or false? ktgzdppho is not less kind than poahljyrz",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5229",
+    "context": "vlqnrwkt takes another person to the circus while yfyzfshnevph does not",
+    "question": "Based on the above information, is the following statement true or false? yfyzfshnevph is more ready than vlqnrwkt",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7453",
+    "context": "ugow eats leftovers more than pwbqxarcu",
+    "question": "Based on the above information, is the following statement true or false? pwbqxarcu is not less hungry than ugow",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2526",
+    "context": "qmdjb publishes sjtxmz's work",
+    "question": "Based on the above information, is the following statement true or false? qmdjb is less powerful than sjtxmz",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5173",
+    "context": "jftyqttna needs a job while kxnkhdde does not",
+    "question": "Based on the above information, is the following statement true or false? kxnkhdde is not less motivated than jftyqttna",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4270",
+    "context": "dqonrwbmbis loves country music while raecsvf does not",
+    "question": "Based on the above information, is the following statement true or false? raecsvf is less simple than dqonrwbmbis",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4232",
+    "context": "readb needs practice while xvgisneg does not",
+    "question": "Based on the above information, is the following statement true or false? readb is more studious than xvgisneg",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6574",
+    "context": "icjuf has been alive for more than dxmqhs",
+    "question": "Based on the above information, is the following statement true or false? dxmqhs is more determined than icjuf",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1779",
+    "context": "daog sees tlrblxnnsmzg's aunt",
+    "question": "Based on the above information, is the following statement true or false? tlrblxnnsmzg is more familiar than daog",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7252",
+    "context": "utxtzvegk goes to their grandmother 's house more than dqbk",
+    "question": "Based on the above information, is the following statement true or false? dqbk is less loving than utxtzvegk",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2420",
+    "context": "gvtbetewui eats an apple, lessrg does not",
+    "question": "Based on the above information, is the following statement true or false? lessrg is less mean than gvtbetewui",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_447",
+    "context": "cdabj is a rat, ozaj is a deer",
+    "question": "Based on the above information, is the following statement true or false? ozaj is more likely to race through a maze than cdabj",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7395",
+    "context": "nlgf gilds the lily more than kjgvrpbhfray",
+    "question": "Based on the above information, is the following statement true or false? kjgvrpbhfray is more high maintenance than nlgf",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2092",
+    "context": "pyuaucwr rolls lzsjgdhnd's shoulders",
+    "question": "Based on the above information, is the following statement true or false? pyuaucwr is not less forceful than lzsjgdhnd",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4682",
+    "context": "jgsmqoegsa becomes very close while fcbyf does not",
+    "question": "Based on the above information, is the following statement true or false? jgsmqoegsa is more open than fcbyf",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3051",
+    "context": "tdigjcfxemf keeps rdjcfepvfrxo still",
+    "question": "Based on the above information, is the following statement true or false? tdigjcfxemf is not less annoyed than rdjcfepvfrxo",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1155",
+    "context": "koidtrzftmt sits right next to keykbsiik",
+    "question": "Based on the above information, is the following statement true or false? keykbsiik is less subtle than koidtrzftmt",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4618",
+    "context": "syculawzwl gets a good night 's rest while tnubevxuxh does not",
+    "question": "Based on the above information, is the following statement true or false? tnubevxuxh is less awake than syculawzwl",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_542",
+    "context": "xejd is a fly, enxrnmvabch is a kangaroo",
+    "question": "Based on the above information, is the following statement true or false? enxrnmvabch is less likely to be in the sky than xejd",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_51",
+    "context": "qmxp is a tiger, gujpchpkp is a seal",
+    "question": "Based on the above information, is the following statement true or false? gujpchpkp is less likely to be in the zoo than qmxp",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2648",
+    "context": "obf gets to know vzrmhbrxlv",
+    "question": "Based on the above information, is the following statement true or false? vzrmhbrxlv is more smart than obf",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6711",
+    "context": "sjilgvjcpq poops their pants more than zupd",
+    "question": "Based on the above information, is the following statement true or false? zupd is more passive than sjilgvjcpq",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_723",
+    "context": "jli is achemist, oewqysza is a chemist",
+    "question": "Based on the above information, is the following statement true or false? oewqysza is less likely to experiment than jli",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7132",
+    "context": "bcxummrcx watches the olympics more than cpekg",
+    "question": "Based on the above information, is the following statement true or false? cpekg is more observant than bcxummrcx",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7101",
+    "context": "rxgm goes to the dogs more than kdhzfazni",
+    "question": "Based on the above information, is the following statement true or false? kdhzfazni is a less pet lover than rxgm",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5502",
+    "context": "dqyzjne gets beat up while vqfeqcf does not",
+    "question": "Based on the above information, is the following statement true or false? vqfeqcf is not more hurt than dqyzjne",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2740",
+    "context": "taughcbrs does xnqqlemn harm",
+    "question": "Based on the above information, is the following statement true or false? xnqqlemn is not more voilent than taughcbrs",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5886",
+    "context": "avzat makes things work more than cquvqqpswtsf",
+    "question": "Based on the above information, is the following statement true or false? cquvqqpswtsf is not less clever than avzat",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_8121",
+    "context": "vnspytxyseex calls the police for help more than zkodhuzwagge",
+    "question": "Based on the above information, is the following statement true or false? zkodhuzwagge is less scared than vnspytxyseex",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2977",
+    "context": "izyklcnc asks ycjtpa to be liked",
+    "question": "Based on the above information, is the following statement true or false? ycjtpa is less insecure than izyklcnc",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7871",
+    "context": "opnhvjej shapes their lives more than cno",
+    "question": "Based on the above information, is the following statement true or false? opnhvjej is not more thoughtful than cno",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7099",
+    "context": "rnzvj makes decisions on the basis more than ntuusrqb",
+    "question": "Based on the above information, is the following statement true or false? ntuusrqb is not less logical than rnzvj",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7898",
+    "context": "rnucezv eats together more than kid",
+    "question": "Based on the above information, is the following statement true or false? rnucezv is more friendly than kid",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5129",
+    "context": "foscpy licks their chops while onxomvwjqbo does not",
+    "question": "Based on the above information, is the following statement true or false? foscpy is not less hungry than onxomvwjqbo",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3216",
+    "context": "lfgwgpzes turns hgg's eyes",
+    "question": "Based on the above information, is the following statement true or false? lfgwgpzes is more caring than hgg",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2178",
+    "context": "iwuoqg builds fmti's nest",
+    "question": "Based on the above information, is the following statement true or false? fmti is not less caring than iwuoqg",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2871",
+    "context": "ssyqxxs gives ucdsut the names",
+    "question": "Based on the above information, is the following statement true or false? ssyqxxs is not more compelled than ucdsut",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2690",
+    "context": "ugapbrccoiqp deprives kayzdeukhw of the power",
+    "question": "Based on the above information, is the following statement true or false? kayzdeukhw is less powerful than ugapbrccoiqp",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7161",
+    "context": "mbvubgxy knocks at another person's door more than rbii",
+    "question": "Based on the above information, is the following statement true or false? rbii is less anticipatory than mbvubgxy",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3795",
+    "context": "kzutru becomes a police officer while rktkwwvlfpi does not",
+    "question": "Based on the above information, is the following statement true or false? kzutru is not less brave than rktkwwvlfpi",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1149",
+    "context": "asjtwqsnt changes sxaabev's name",
+    "question": "Based on the above information, is the following statement true or false? sxaabev is more scared than asjtwqsnt",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7425",
+    "context": "zvtmbu works well in business more than bhiiz",
+    "question": "Based on the above information, is the following statement true or false? bhiiz is more skilled than zvtmbu",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3886",
+    "context": "ghqtvlr offers help while jpkajxybew does not",
+    "question": "Based on the above information, is the following statement true or false? jpkajxybew is not more selfless than ghqtvlr",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3334",
+    "context": "ltbdqw gives iddxec names",
+    "question": "Based on the above information, is the following statement true or false? iddxec is not more worker than ltbdqw",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4343",
+    "context": "ysqjzfjask feels a lump while yfonv does not",
+    "question": "Based on the above information, is the following statement true or false? ysqjzfjask is not less concerned than yfonv",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_148",
+    "context": "ssnrm is a snake, jotaoj is a horse",
+    "question": "Based on the above information, is the following statement true or false? ssnrm is not less likely to be in the bible than jotaoj",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2498",
+    "context": "plyvkgv assumes wjib's form",
+    "question": "Based on the above information, is the following statement true or false? wjib is more creepy than plyvkgv",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_8052",
+    "context": "zmaztnfazmrr likes to cook more than ypakpzcaej",
+    "question": "Based on the above information, is the following statement true or false? ypakpzcaej is not less a foodie than zmaztnfazmrr",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1275",
+    "context": "tvedpxewbdm blows gqgnwguq away",
+    "question": "Based on the above information, is the following statement true or false? gqgnwguq is less superior than tvedpxewbdm",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_732",
+    "context": "kkhzhxzkhet is a baker, lvkdujp is not",
+    "question": "Based on the above information, is the following statement true or false? lvkdujp is not more likely to shop than kkhzhxzkhet",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3104",
+    "context": "fbygu opens oaquohaqaryn's eyes",
+    "question": "Based on the above information, is the following statement true or false? oaquohaqaryn is a more leader than fbygu",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4960",
+    "context": "ngfsvxtq commands another person army while itajkjemx does not",
+    "question": "Based on the above information, is the following statement true or false? itajkjemx is more strong than ngfsvxtq",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6732",
+    "context": "rvtfl puts another person's arms more than cbxesyqunh",
+    "question": "Based on the above information, is the following statement true or false? cbxesyqunh is not more friendly than rvtfl",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2776",
+    "context": "bzaldkasxnx throws euoiqpztj away",
+    "question": "Based on the above information, is the following statement true or false? euoiqpztj is not less rude than bzaldkasxnx",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1868",
+    "context": "dnuyt lifts fwtb's face",
+    "question": "Based on the above information, is the following statement true or false? fwtb is less serious than dnuyt",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3328",
+    "context": "ramdkl gets ncvadnnkjjzb into trouble",
+    "question": "Based on the above information, is the following statement true or false? ncvadnnkjjzb is not more in charge than ramdkl",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6738",
+    "context": "udcqensaomwt learns how to play the guitar more than zwxta",
+    "question": "Based on the above information, is the following statement true or false? zwxta is not less skillful than udcqensaomwt",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2850",
+    "context": "tlqptyk does not want to see iumvtrwaoy again",
+    "question": "Based on the above information, is the following statement true or false? tlqptyk is more fed up than iumvtrwaoy",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4034",
+    "context": "abjpidfxjuxh is still loved while imykn is not",
+    "question": "Based on the above information, is the following statement true or false? imykn is more content than abjpidfxjuxh",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4192",
+    "context": "oypjvtm does not make the team while pceyjfdmuh does",
+    "question": "Based on the above information, is the following statement true or false? pceyjfdmuh is less unskilled than oypjvtm",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_8079",
+    "context": "fpjwgmwoqu goes back to the house more than poanahjglg",
+    "question": "Based on the above information, is the following statement true or false? poanahjglg is more dependable than fpjwgmwoqu",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2146",
+    "context": "ooy stops bothering xygofs",
+    "question": "Based on the above information, is the following statement true or false? ooy is not more smart than xygofs",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7945",
+    "context": "oti reaches another person agreement more than jpn",
+    "question": "Based on the above information, is the following statement true or false? jpn is not less helpful than oti",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4141",
+    "context": "rttteppcfq starts driving while wya does not",
+    "question": "Based on the above information, is the following statement true or false? wya is less young than rttteppcfq",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3557",
+    "context": "ipr keeps an eye on another person while lpspogogq does not",
+    "question": "Based on the above information, is the following statement true or false? lpspogogq is not more wary than ipr",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_97",
+    "context": "ylbtqh is a bear, pdweldexlfzg is a rat",
+    "question": "Based on the above information, is the following statement true or false? ylbtqh is less likely to fish for salmon than pdweldexlfzg",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4418",
+    "context": "wfntyqzbrl quits understanding objective reality while hlqyr does not",
+    "question": "Based on the above information, is the following statement true or false? wfntyqzbrl is more insane than hlqyr",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6260",
+    "context": "tcqissoabby doubts their ability more than www",
+    "question": "Based on the above information, is the following statement true or false? tcqissoabby is less lethargic than www",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_368",
+    "context": "oqtih is a bee, tcsj is a lobster",
+    "question": "Based on the above information, is the following statement true or false? tcsj is more likely to be in any garden than oqtih",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1297",
+    "context": "cua sits in front of nrhb",
+    "question": "Based on the above information, is the following statement true or false? cua is more thoughtless than nrhb",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2215",
+    "context": "ggkabk tells llm things",
+    "question": "Based on the above information, is the following statement true or false? ggkabk is more understanding than llm",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5010",
+    "context": "mrufzqe gives another person lessons while zly does not",
+    "question": "Based on the above information, is the following statement true or false? zly is not less smart than mrufzqe",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_825",
+    "context": "ltfacsblas is a better illustrator than ooevpjue",
+    "question": "Based on the above information, is the following statement true or false? ooevpjue is more likely to create picture than ltfacsblas",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_119",
+    "context": "vkzquh is a cow, zlad is a pig",
+    "question": "Based on the above information, is the following statement true or false? zlad is not less low at milking time than vkzquh",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7812",
+    "context": "vxtsioqqnaa stands next to bnhdjflkley",
+    "question": "Based on the above information, is the following statement true or false? bnhdjflkley is not less patient than vxtsioqqnaa",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7498",
+    "context": "rpmrvnxteigm catches another person's breath more than czyrlztardio",
+    "question": "Based on the above information, is the following statement true or false? czyrlztardio is more hppy than rpmrvnxteigm",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3490",
+    "context": "fdqkvotgkvqj sees another person's husband while lccg does not",
+    "question": "Based on the above information, is the following statement true or false? lccg is not more polite than fdqkvotgkvqj",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3821",
+    "context": "ojf makes another person comparison while hmnigpffyqs does not",
+    "question": "Based on the above information, is the following statement true or false? hmnigpffyqs is not more comparing than ojf",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3586",
+    "context": "sdsrcjlce loves going to the zoo more than igbnek",
+    "question": "Based on the above information, is the following statement true or false? igbnek is not more curious than sdsrcjlce",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7117",
+    "context": "esxdd sees another person better than offslt",
+    "question": "Based on the above information, is the following statement true or false? offslt is not more loving than esxdd",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7541",
+    "context": "bywn gets their skates on more than qfah",
+    "question": "Based on the above information, is the following statement true or false? bywn is not less ready than qfah",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5636",
+    "context": "pihnnxvzwuyc has more nips in the bud than vzkejcjtbsl",
+    "question": "Based on the above information, is the following statement true or false? pihnnxvzwuyc is less strong than vzkejcjtbsl",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5936",
+    "context": "pjbks earns their keep more than kmaivotfudo",
+    "question": "Based on the above information, is the following statement true or false? pjbks is less independent than kmaivotfudo",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6764",
+    "context": "nebste adds to their collection more than lmiye",
+    "question": "Based on the above information, is the following statement true or false? nebste is more a curator than lmiye",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3989",
+    "context": "xmmfdbd grows taller while bcyrslp does not",
+    "question": "Based on the above information, is the following statement true or false? bcyrslp is not less large than xmmfdbd",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3380",
+    "context": "bkdsfgaaxup pulls their finger out while zkvryiyig does not",
+    "question": "Based on the above information, is the following statement true or false? zkvryiyig is less surprised than bkdsfgaaxup",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5168",
+    "context": "neidj needs a job while vnxtlikyirk does not",
+    "question": "Based on the above information, is the following statement true or false? neidj is more motivated than vnxtlikyirk",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7509",
+    "context": "druok spends the day more than iszkxk",
+    "question": "Based on the above information, is the following statement true or false? iszkxk is more adventurous than druok",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_733",
+    "context": "tuoxfoqmb is qfjviyte'sauditor",
+    "question": "Based on the above information, is the following statement true or false? tuoxfoqmb is more likely to monitor auditory activity than qfjviyte",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6755",
+    "context": "thkszxtf buys a new truck more than xdofmdlit",
+    "question": "Based on the above information, is the following statement true or false? thkszxtf is not more frugal than xdofmdlit",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1789",
+    "context": "hxcu never saw smcwnjpnu",
+    "question": "Based on the above information, is the following statement true or false? hxcu is less longing than smcwnjpnu",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5770",
+    "context": "exo gives away the store more than xpwxamdczovd",
+    "question": "Based on the above information, is the following statement true or false? xpwxamdczovd is less generous than exo",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2025",
+    "context": "sqz stops kissing qomssy",
+    "question": "Based on the above information, is the following statement true or false? qomssy is less furious than sqz",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7896",
+    "context": "ohdvlwursuy finds one on ebay more than sabeeghwzl",
+    "question": "Based on the above information, is the following statement true or false? sabeeghwzl is not less searching than ohdvlwursuy",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_712",
+    "context": "lrlq is a judge, zfk is not",
+    "question": "Based on the above information, is the following statement true or false? lrlq is not more likely to settle dispute than zfk",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5039",
+    "context": "qtwzrqceq sees a man about a dog while fzm does not",
+    "question": "Based on the above information, is the following statement true or false? qtwzrqceq is not less engaged than fzm",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_299",
+    "context": "ljyjhjrr is a owl, rhbmdeooacyr is a alligator",
+    "question": "Based on the above information, is the following statement true or false? rhbmdeooacyr is not more likely to rest during the day than ljyjhjrr",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5858",
+    "context": "sdv has to go to school more than kdnshvqztn",
+    "question": "Based on the above information, is the following statement true or false? sdv is more good than kdnshvqztn",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5033",
+    "context": "xeqbuo sets another person right while bxlfqj does not",
+    "question": "Based on the above information, is the following statement true or false? xeqbuo is not more motivated than bxlfqj",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5854",
+    "context": "stfsf sends a message more than ynxvznrdh",
+    "question": "Based on the above information, is the following statement true or false? ynxvznrdh is less collaborative than stfsf",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1678",
+    "context": "iqebaqzb clenches ubyyeothtdq's teeth",
+    "question": "Based on the above information, is the following statement true or false? iqebaqzb is not more annoyed than ubyyeothtdq",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5600",
+    "context": "gnsyqvll plays a role in the process while gkdlfqomo does not",
+    "question": "Based on the above information, is the following statement true or false? gnsyqvll is less bizzare than gkdlfqomo",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3922",
+    "context": "xcymc attends the party while fzagcrfa does not",
+    "question": "Based on the above information, is the following statement true or false? fzagcrfa is not more friendly than xcymc",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_553",
+    "context": "affuyjap is a pig, vrhzprlrdey is a rat",
+    "question": "Based on the above information, is the following statement true or false? affuyjap is less likely to be in a poke than vrhzprlrdey",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_817",
+    "context": "vnytlnc is bqjnrwxqkprs's writer",
+    "question": "Based on the above information, is the following statement true or false? vnytlnc is less likely to draw than bqjnrwxqkprs",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2617",
+    "context": "xioyt knows isttqnxldikq wouldn't",
+    "question": "Based on the above information, is the following statement true or false? isttqnxldikq is more hopeful than xioyt",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7638",
+    "context": "nzaphtvana drives to their house more than gfvgpoycfrrq",
+    "question": "Based on the above information, is the following statement true or false? gfvgpoycfrrq is not more purposeful than nzaphtvana",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_413",
+    "context": "menn is a rat, xvxxczoecuf is a snail",
+    "question": "Based on the above information, is the following statement true or false? xvxxczoecuf is not more likely to be in a maze than menn",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1381",
+    "context": "ermy runs more risk than zrxr",
+    "question": "Based on the above information, is the following statement true or false? ermy is more adventurous than zrxr",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4976",
+    "context": "altccjjuk works the next morning while qzz does not",
+    "question": "Based on the above information, is the following statement true or false? altccjjuk is less responsible than qzz",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7187",
+    "context": "zybshfrupod uses it all the time more than zbr",
+    "question": "Based on the above information, is the following statement true or false? zybshfrupod is not more consistent than zbr",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2996",
+    "context": "hretm calls sbvfdvx's brother",
+    "question": "Based on the above information, is the following statement true or false? sbvfdvx is more social than hretm",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4425",
+    "context": "huftccahi forgets to set their alarm while yaufpfo does not",
+    "question": "Based on the above information, is the following statement true or false? yaufpfo is more concerned than huftccahi",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6136",
+    "context": "mwjhlibfqmtu smells so good than oxqiqwfcgt",
+    "question": "Based on the above information, is the following statement true or false? oxqiqwfcgt is more tactful than mwjhlibfqmtu",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6602",
+    "context": "fnevt swims at the local pool more than csvnx",
+    "question": "Based on the above information, is the following statement true or false? fnevt is more community spirited than csvnx",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6993",
+    "context": "ijuzbtwjii gets the lead role more than kgcxpcsjhg",
+    "question": "Based on the above information, is the following statement true or false? kgcxpcsjhg is less excited than ijuzbtwjii",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_809",
+    "context": "iotqlakbczu is a barber, jkszrswxhi is not",
+    "question": "Based on the above information, is the following statement true or false? jkszrswxhi is not less likely to wash window than iotqlakbczu",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4402",
+    "context": "skxjpau rides another person's bike while pknsv does not",
+    "question": "Based on the above information, is the following statement true or false? pknsv is less adventurous than skxjpau",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1987",
+    "context": "alltpwhsxi holds laxgftdg close",
+    "question": "Based on the above information, is the following statement true or false? alltpwhsxi is more loving than laxgftdg",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4029",
+    "context": "fpmyrp has always wanted to go to more than kvrwsq",
+    "question": "Based on the above information, is the following statement true or false? fpmyrp is not more hopeful than kvrwsq",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6656",
+    "context": "eazjpgou arrives back home more than qpgoz",
+    "question": "Based on the above information, is the following statement true or false? eazjpgou is less restless than qpgoz",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4327",
+    "context": "gsduxrvjpmd plays videogames while rkoiknyg does not",
+    "question": "Based on the above information, is the following statement true or false? rkoiknyg is not less entertainment seeking than gsduxrvjpmd",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2931",
+    "context": "gpvtnuzef cuts erzxpzmgp's hair",
+    "question": "Based on the above information, is the following statement true or false? gpvtnuzef is not more detail-oriented than erzxpzmgp",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7454",
+    "context": "hdapexfgt is low on money, ymhid is low on money",
+    "question": "Based on the above information, is the following statement true or false? hdapexfgt is less poor than ymhid",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2030",
+    "context": "nfafjcnu tells pejikrf to tell people",
+    "question": "Based on the above information, is the following statement true or false? pejikrf is more likely to tell people than nfafjcnu",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5784",
+    "context": "ulwgptgypucb gives another person a knowledge more than olsmwnp",
+    "question": "Based on the above information, is the following statement true or false? olsmwnp is not less understanding than ulwgptgypucb",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_461",
+    "context": "uphdv is a bee, dnxlherpk is a seal",
+    "question": "Based on the above information, is the following statement true or false? dnxlherpk is not more likely to be in a field of flowers than uphdv",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2180",
+    "context": "pzu pulls xcmjsedvraxf toward personz",
+    "question": "Based on the above information, is the following statement true or false? xcmjsedvraxf is more aroused than pzu",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2995",
+    "context": "sbvfdvx is hretm's brother",
+    "question": "Based on the above information, is the following statement true or false? hretm is more social than sbvfdvx",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7323",
+    "context": "svpgintq looks cute while risans does not",
+    "question": "Based on the above information, is the following statement true or false? risans is more attractive than svpgintq",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7796",
+    "context": "rsffrcod helps finishes another person's work more than qaxujtrs",
+    "question": "Based on the above information, is the following statement true or false? rsffrcod is less determined than qaxujtrs",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5925",
+    "context": "uixfkg gives their wife more than zgmk",
+    "question": "Based on the above information, is the following statement true or false? zgmk is more considerate than uixfkg",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5255",
+    "context": "uwflojbd finds an apartment while dmrfkhivio does not",
+    "question": "Based on the above information, is the following statement true or false? uwflojbd is not more traveler than dmrfkhivio",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5558",
+    "context": "uqmr pulls an all-nighter while lmj does not",
+    "question": "Based on the above information, is the following statement true or false? uqmr is less tired than lmj",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_122",
+    "context": "fyk is a monkey, wbaguftlxsq is a giraffe",
+    "question": "Based on the above information, is the following statement true or false? wbaguftlxsq is less likely to be in a cage at the zoo than fyk",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1385",
+    "context": "ntt is not more adventurous than gxlgohtdiaco",
+    "question": "Based on the above information, is the following statement true or false? gxlgohtdiaco is not less adventurous than ntt",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7308",
+    "context": "vzhuvzlirrb plays video games with another person's friends more than gfcfasgt",
+    "question": "Based on the above information, is the following statement true or false? gfcfasgt is not more friendly than vzhuvzlirrb",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1205",
+    "context": "ybkjqmmhcqz gives dybvd an idea",
+    "question": "Based on the above information, is the following statement true or false? dybvd is not more convincing than ybkjqmmhcqz",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7583",
+    "context": "isvjrivva makes it extra special than uiziivc",
+    "question": "Based on the above information, is the following statement true or false? isvjrivva is not less dramatic than uiziivc",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_689",
+    "context": "vjaggjrc is a singer, ymbemwatnoa is not",
+    "question": "Based on the above information, is the following statement true or false? ymbemwatnoa is not more likely to act in play than vjaggjrc",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6584",
+    "context": "hku loses money more than ghfsg",
+    "question": "Based on the above information, is the following statement true or false? hku is more a gambler than ghfsg",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4598",
+    "context": "pezrdkzqe buys a new fish while qcpkuireuda does not",
+    "question": "Based on the above information, is the following statement true or false? pezrdkzqe is more excitable than qcpkuireuda",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5427",
+    "context": "uzrnpfem wastes food while mxpl does not",
+    "question": "Based on the above information, is the following statement true or false? mxpl is less stuffed than uzrnpfem",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6783",
+    "context": "qnufq feels overwhelmed more than zlkzbrvjbku",
+    "question": "Based on the above information, is the following statement true or false? zlkzbrvjbku is less tired than qnufq",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1249",
+    "context": "dho becomes byl's obsession",
+    "question": "Based on the above information, is the following statement true or false? dho is less scared than byl",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6553",
+    "context": "czyhhl writes another person letter more than nthhojaf",
+    "question": "Based on the above information, is the following statement true or false? nthhojaf is not less friendly than czyhhl",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4792",
+    "context": "sxqw follows another person back while vxh does not",
+    "question": "Based on the above information, is the following statement true or false? vxh is less lost than sxqw",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7655",
+    "context": "rznyhvzxdmag knows their business more than pkitbcoj",
+    "question": "Based on the above information, is the following statement true or false? rznyhvzxdmag is not more nosey than pkitbcoj",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5952",
+    "context": "ivo plays fast and loose more than viidajd",
+    "question": "Based on the above information, is the following statement true or false? viidajd is not more unsucess than ivo",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2802",
+    "context": "kadwmjycowtj asks czbxvjnlhjuo's name",
+    "question": "Based on the above information, is the following statement true or false? kadwmjycowtj is less warm than czbxvjnlhjuo",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5847",
+    "context": "loccittkbqda loses their job more than ixkvlxymk",
+    "question": "Based on the above information, is the following statement true or false? ixkvlxymk is more sad than loccittkbqda",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_377",
+    "context": "wxpzm is a wolf, cla is a dog",
+    "question": "Based on the above information, is the following statement true or false? cla is not more likely to mother its cub than wxpzm",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5662",
+    "context": "zzqgatydw gives another person authority while vlgt does not",
+    "question": "Based on the above information, is the following statement true or false? vlgt is less talented than zzqgatydw",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4939",
+    "context": "fgpcgmiovl rests upon another person while wtzzjg does not",
+    "question": "Based on the above information, is the following statement true or false? wtzzjg is not less selfish than fgpcgmiovl",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7929",
+    "context": "rai starts toward another person more than mutkuqkg",
+    "question": "Based on the above information, is the following statement true or false? mutkuqkg is less bold than rai",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1361",
+    "context": "nfnrkiadkmy drives oicmi's home",
+    "question": "Based on the above information, is the following statement true or false? oicmi is not less good than nfnrkiadkmy",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7120",
+    "context": "koq manages their affairs more than ojvwr",
+    "question": "Based on the above information, is the following statement true or false? ojvwr is more bright than koq",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7080",
+    "context": "qzmn loves another person's job more than xgjpczrci",
+    "question": "Based on the above information, is the following statement true or false? xgjpczrci is not more loyal than qzmn",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1890",
+    "context": "lkpogaqaq puts pzxkqesqsefg back",
+    "question": "Based on the above information, is the following statement true or false? pzxkqesqsefg is not more supportive than lkpogaqaq",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7196",
+    "context": "qmu beats their friend more than vbmpzsgzqae",
+    "question": "Based on the above information, is the following statement true or false? qmu is more talented than vbmpzsgzqae",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4378",
+    "context": "gqdkxsjxj depends upon the temperature while cncczjamyf does not",
+    "question": "Based on the above information, is the following statement true or false? cncczjamyf is less reliable than gqdkxsjxj",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2714",
+    "context": "nqzbtf couples with ipgj",
+    "question": "Based on the above information, is the following statement true or false? ipgj is less sympathetic than nqzbtf",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_264",
+    "context": "dgsiw is a shark, dcnveqve is a duck",
+    "question": "Based on the above information, is the following statement true or false? dcnveqve is not more likely to be in the ocean than dgsiw",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1318",
+    "context": "nmgiydx gives sjwi protection",
+    "question": "Based on the above information, is the following statement true or false? nmgiydx is not less protective than sjwi",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2076",
+    "context": "cml finishes iemcp's food",
+    "question": "Based on the above information, is the following statement true or false? iemcp is not less inconsiderate than cml",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3779",
+    "context": "zfucvjim puts it up for sale while xfsp does not",
+    "question": "Based on the above information, is the following statement true or false? xfsp is not less clever than zfucvjim",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1058",
+    "context": "xkpoj denies rpj access",
+    "question": "Based on the above information, is the following statement true or false? rpj is less controlling than xkpoj",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_272",
+    "context": "oadfhw is a squirrel, shdsvksbazn is a panda",
+    "question": "Based on the above information, is the following statement true or false? shdsvksbazn is less likely to be on a street than oadfhw",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5271",
+    "context": "zgfeyrz drives another person up the wall while ibvc does not",
+    "question": "Based on the above information, is the following statement true or false? ibvc is more crazy than zgfeyrz",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3658",
+    "context": "thmtonhvcjpy works for weeks while faq does not",
+    "question": "Based on the above information, is the following statement true or false? faq is not less hardworking than thmtonhvcjpy",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3955",
+    "context": "jkidemqo would n't eat more than denz",
+    "question": "Based on the above information, is the following statement true or false? denz is more dieting than jkidemqo",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6267",
+    "context": "vbxrcck chases the dog more than yvqdnaxvasp",
+    "question": "Based on the above information, is the following statement true or false? yvqdnaxvasp is more rambunctious than vbxrcck",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3368",
+    "context": "tgvwvqvvl takes another person aside while nvmmiobvo does not",
+    "question": "Based on the above information, is the following statement true or false? nvmmiobvo is more giving than tgvwvqvvl",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5373",
+    "context": "dipoyxrix seems like another person while lczmsx does not",
+    "question": "Based on the above information, is the following statement true or false? lczmsx is more similar than dipoyxrix",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2005",
+    "context": "yxkadwbxbhgz gives mrtrsmssgfn notice",
+    "question": "Based on the above information, is the following statement true or false? yxkadwbxbhgz is more strong than mrtrsmssgfn",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6063",
+    "context": "kigpf moves back more than svzcetfducmb",
+    "question": "Based on the above information, is the following statement true or false? svzcetfducmb is more calm than kigpf",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2972",
+    "context": "neyhiwc shows it to kjz's parents",
+    "question": "Based on the above information, is the following statement true or false? kjz is more helpful than neyhiwc",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5608",
+    "context": "uojvujwx would play with another person while ukvwzjama does not",
+    "question": "Based on the above information, is the following statement true or false? ukvwzjama is more patient than uojvujwx",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2875",
+    "context": "kswpwekmvxe brings mhnxkx's hand up",
+    "question": "Based on the above information, is the following statement true or false? mhnxkx is more devious than kswpwekmvxe",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6587",
+    "context": "laotyak loses money more than cefupdosddf",
+    "question": "Based on the above information, is the following statement true or false? laotyak is not less a gambler than cefupdosddf",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7656",
+    "context": "pkitbcoj knows their business more than rznyhvzxdmag",
+    "question": "Based on the above information, is the following statement true or false? rznyhvzxdmag is not more nosey than pkitbcoj",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2376",
+    "context": "zqvl ruins xjr's life",
+    "question": "Based on the above information, is the following statement true or false? xjr is not more vindictive than zqvl",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4533",
+    "context": "epbd starts their truck while lzez does not",
+    "question": "Based on the above information, is the following statement true or false? lzez is less ready to go than epbd",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7025",
+    "context": "gdtz is able to doubles check more than gfwrudafzk",
+    "question": "Based on the above information, is the following statement true or false? gdtz is not more ensuring than gfwrudafzk",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3582",
+    "context": "xsyty loves going to the zoo while rzdzqygrg does not",
+    "question": "Based on the above information, is the following statement true or false? xsyty is more curious than rzdzqygrg",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2278",
+    "context": "pytj conveys pii an idea",
+    "question": "Based on the above information, is the following statement true or false? pytj is not more helpful than pii",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6638",
+    "context": "upgxzrkw performs their functions more than sdkvasoof",
+    "question": "Based on the above information, is the following statement true or false? upgxzrkw is less excitable than sdkvasoof",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6159",
+    "context": "flvcwujoiwj opens their car more than psibm",
+    "question": "Based on the above information, is the following statement true or false? psibm is less normal than flvcwujoiwj",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3413",
+    "context": "bgob never came while bipmmcar did",
+    "question": "Based on the above information, is the following statement true or false? bipmmcar is not more flakey than bgob",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_8172",
+    "context": "yilvxw is more straight than uurdz",
+    "question": "Based on the above information, is the following statement true or false? uurdz is not worse at catching football than yilvxw",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3698",
+    "context": "tmv eats too much candy while fwatmas does not",
+    "question": "Based on the above information, is the following statement true or false? fwatmas is less sick than tmv",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_8030",
+    "context": "wznynldmsk sees a doctor more than dbrhfspra",
+    "question": "Based on the above information, is the following statement true or false? wznynldmsk is less curios than dbrhfspra",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5164",
+    "context": "hrxkszjos gets dizzy while jtuqswhj does not",
+    "question": "Based on the above information, is the following statement true or false? jtuqswhj is less sick than hrxkszjos",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3692",
+    "context": "ctpta would love another person more than ndkqhozvm",
+    "question": "Based on the above information, is the following statement true or false? ndkqhozvm is more amiable than ctpta",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1803",
+    "context": "xgbaimlua urges mwojrgrqoa to accept",
+    "question": "Based on the above information, is the following statement true or false? mwojrgrqoa is less persuasive than xgbaimlua",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6628",
+    "context": "qazi buys a new bike more than vrmdtneubd",
+    "question": "Based on the above information, is the following statement true or false? vrmdtneubd is less acquisitive than qazi",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3891",
+    "context": "owuobntnjsa tells their brother while sworgpl does not",
+    "question": "Based on the above information, is the following statement true or false? owuobntnjsa is not more gregarious than sworgpl",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6285",
+    "context": "sljpicodtlm takes care of their needs more than kqhd",
+    "question": "Based on the above information, is the following statement true or false? kqhd is more caring than sljpicodtlm",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1174",
+    "context": "rsmqd offered pafh a gift",
+    "question": "Based on the above information, is the following statement true or false? rsmqd is not more generous than pafh",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1586",
+    "context": "iehblztmk returns yzmdlrp's phone",
+    "question": "Based on the above information, is the following statement true or false? yzmdlrp is more helpful than iehblztmk",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4165",
+    "context": "npewrpbcgika throws open while ucpkcl does not",
+    "question": "Based on the above information, is the following statement true or false? ucpkcl is not more aggressive than npewrpbcgika",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6686",
+    "context": "gvvt gets another person's number more than dyjzpyfpujj",
+    "question": "Based on the above information, is the following statement true or false? gvvt is more smooth than dyjzpyfpujj",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_521",
+    "context": "xiw is a rabbit, lcbc is a deer",
+    "question": "Based on the above information, is the following statement true or false? lcbc is not less likely to be in a medow than xiw",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7339",
+    "context": "demakusvy comes back home more than koyqgqc",
+    "question": "Based on the above information, is the following statement true or false? koyqgqc is not more loyal than demakusvy",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_848",
+    "context": "wdhko is less likely to pose for photographer than yaygmlrhmi",
+    "question": "Based on the above information, is the following statement true or false? yaygmlrhmi is more likely to pose for wdhko",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4542",
+    "context": "ttpdfurxr wants to look their best while wzorh does not",
+    "question": "Based on the above information, is the following statement true or false? wzorh is not more diva than ttpdfurxr",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4679",
+    "context": "qmqpphgu dies their hair while aok does not",
+    "question": "Based on the above information, is the following statement true or false? qmqpphgu is not more self-conscious than aok",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5957",
+    "context": "ycbullxyrs protects their privacy more than pfyjphni",
+    "question": "Based on the above information, is the following statement true or false? ycbullxyrs is not more responsible than pfyjphni",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4178",
+    "context": "zmz bothers another person so much while oxnnh does not",
+    "question": "Based on the above information, is the following statement true or false? zmz is less childish than oxnnh",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3965",
+    "context": "gkx is the youngest another person president while rtxsae is not",
+    "question": "Based on the above information, is the following statement true or false? rtxsae is not less motivated than gkx",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1566",
+    "context": "gbffoygy cooks dinner for cugius's family",
+    "question": "Based on the above information, is the following statement true or false? cugius is not less responsible than gbffoygy",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2519",
+    "context": "kqnuouwbsnhy suits qriswwhzyw's needs",
+    "question": "Based on the above information, is the following statement true or false? qriswwhzyw is not more competent than kqnuouwbsnhy",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2235",
+    "context": "mzlnmbwiwkdb kisses qglhsdfiy on the lips",
+    "question": "Based on the above information, is the following statement true or false? qglhsdfiy is more romantic than mzlnmbwiwkdb",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6316",
+    "context": "ytywiaok goes to the park to feed the ducks more than oyhlgqdsir",
+    "question": "Based on the above information, is the following statement true or false? oyhlgqdsir is more thoughtful than ytywiaok",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1952",
+    "context": "vxncwqc resumes hwx's work",
+    "question": "Based on the above information, is the following statement true or false? hwx is more interested than vxncwqc",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3466",
+    "context": "pyk walks the rest of the way to school while fwqpkmoi does not",
+    "question": "Based on the above information, is the following statement true or false? fwqpkmoi is not more down-to-earth than pyk",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3820",
+    "context": "hmnigpffyqs makes another person comparison while ojf does not",
+    "question": "Based on the above information, is the following statement true or false? ojf is not less comparing than hmnigpffyqs",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_625",
+    "context": "jpxvkrolamrx is a shark, ymj is a eagle",
+    "question": "Based on the above information, is the following statement true or false? jpxvkrolamrx is more likely to be in the sea world than ymj",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_694",
+    "context": "ubyet is a poet, skyxmxij is not",
+    "question": "Based on the above information, is the following statement true or false? ubyet is not less likely to express his emotion than skyxmxij",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3480",
+    "context": "slr feels unprepared while mklxsdehz does not",
+    "question": "Based on the above information, is the following statement true or false? slr is less worried than mklxsdehz",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1831",
+    "context": "amfgabhbrg blows vakhfacatzt's engine",
+    "question": "Based on the above information, is the following statement true or false? amfgabhbrg is less risky than vakhfacatzt",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4305",
+    "context": "rwpqu bakes all day while pom does not",
+    "question": "Based on the above information, is the following statement true or false? pom is less consistent than rwpqu",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7186",
+    "context": "trrbqpunr uses it all the time more than hueqeabtsxz",
+    "question": "Based on the above information, is the following statement true or false? hueqeabtsxz is less consistent than trrbqpunr",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7468",
+    "context": "xtetcxyawqol throws a wobbly ball more than mxmgbf",
+    "question": "Based on the above information, is the following statement true or false? mxmgbf is less talented than xtetcxyawqol",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7206",
+    "context": "uiluhpzkonpd heads towards another person more than lyrsnrkte",
+    "question": "Based on the above information, is the following statement true or false? lyrsnrkte is not less social than uiluhpzkonpd",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1284",
+    "context": "tukq helps completes dzhx's homework",
+    "question": "Based on the above information, is the following statement true or false? dzhx is not less careless than tukq",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_457",
+    "context": "kwxt is a bee, tqvj is a seal",
+    "question": "Based on the above information, is the following statement true or false? kwxt is more likely to be in a field of flowers than tqvj",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3415",
+    "context": "edgvcwxu gets a bad grade while jnse does not",
+    "question": "Based on the above information, is the following statement true or false? jnse is more nervous than edgvcwxu",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7131",
+    "context": "cpekg watches the olympics more than bcxummrcx",
+    "question": "Based on the above information, is the following statement true or false? bcxummrcx is more observant than cpekg",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2263",
+    "context": "elrnspcn kisses qobdvgb softly",
+    "question": "Based on the above information, is the following statement true or false? elrnspcn is less sweet than qobdvgb",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5288",
+    "context": "wvxaozli publishes another person account while qsmdwhgala does not",
+    "question": "Based on the above information, is the following statement true or false? wvxaozli is more brave than qsmdwhgala",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4059",
+    "context": "dbiyjakzo leaves heading to another person while caru does not",
+    "question": "Based on the above information, is the following statement true or false? dbiyjakzo is not less talented than caru",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1552",
+    "context": "igywapiearxg uses drltpazv's cell phone",
+    "question": "Based on the above information, is the following statement true or false? igywapiearxg is not less friendly than drltpazv",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6463",
+    "context": "bqceyynxk goes fishing more than actfhppwfc",
+    "question": "Based on the above information, is the following statement true or false? actfhppwfc is not less adventerous than bqceyynxk",
+    "answer": "B",
+    "flag": "parsing error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4474",
+    "context": "ydn inherits from their father while ibdwetdpohn does not",
+    "question": "Based on the above information, is the following statement true or false? ibdwetdpohn is less fortunate than ydn",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6386",
+    "context": "frbceeohhddw stops talking to another person more than jtnv",
+    "question": "Based on the above information, is the following statement true or false? frbceeohhddw is more mute than jtnv",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7027",
+    "context": "gdtz is more likely to doubles check than gfwrudafzk",
+    "question": "Based on the above information, is the following statement true or false? gfwrudafzk is not more ensuring than gdtz",
+    "answer": "A",
+    "flag": "parsing error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5741",
+    "context": "vkvfv buys another person a new pair of shoes while hqji does not",
+    "question": "Based on the above information, is the following statement true or false? vkvfv is not less caring than hqji",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3233",
+    "context": "wwisx teaches dvnijf a lesson",
+    "question": "Based on the above information, is the following statement true or false? dvnijf is not more vengeful than wwisx",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7367",
+    "context": "fmjwrgoch scratches the ticket more than mhjbl",
+    "question": "Based on the above information, is the following statement true or false? fmjwrgoch is not more hopeful than mhjbl",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2336",
+    "context": "iwezgi requires hmlrtjvsb's attention",
+    "question": "Based on the above information, is the following statement true or false? hmlrtjvsb is less social than iwezgi",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2725",
+    "context": "spsrpicozdj rides tsdd's bike home",
+    "question": "Based on the above information, is the following statement true or false? tsdd is less active than spsrpicozdj",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_315",
+    "context": "gviziyld is a monkey, mep is a snail",
+    "question": "Based on the above information, is the following statement true or false? mep is less likely to move from one tree to another than gviziyld",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5900",
+    "context": "dhhprrnfd draws attention away more than sprlfckeujk",
+    "question": "Based on the above information, is the following statement true or false? dhhprrnfd is less outgoing than sprlfckeujk",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6500",
+    "context": "nyuqkluxuitx pays attention to details more than zwcjdf",
+    "question": "Based on the above information, is the following statement true or false? nyuqkluxuitx is less fastidious than zwcjdf",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5335",
+    "context": "ejtm breaks another person's arm while cgtrzntrucdb does not",
+    "question": "Based on the above information, is the following statement true or false? cgtrzntrucdb is not less violent than ejtm",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3488",
+    "context": "epuufznxlbp sees another person's husband while prpru does not",
+    "question": "Based on the above information, is the following statement true or false? prpru is less polite than epuufznxlbp",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5983",
+    "context": "lnimim hits below their weight more than nlhu",
+    "question": "Based on the above information, is the following statement true or false? nlhu is not more quick than lnimim",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6343",
+    "context": "vropftonr is more immediately opened than wojkn",
+    "question": "Based on the above information, is the following statement true or false? wojkn is not more surprised than vropftonr",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3908",
+    "context": "couy accomplishes their purpose while zcelyiehme does not",
+    "question": "Based on the above information, is the following statement true or false? zcelyiehme is less ambitious than couy",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7281",
+    "context": "kkxzqzgeou wins a prize more than tfluhm",
+    "question": "Based on the above information, is the following statement true or false? tfluhm is less happy than kkxzqzgeou",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2810",
+    "context": "jthbddqjmi stretches vbiokgt's legs",
+    "question": "Based on the above information, is the following statement true or false? vbiokgt is less aggressive than jthbddqjmi",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_742",
+    "context": "pxnnietgywk is a scientist, exzwyjldgsxb is not",
+    "question": "Based on the above information, is the following statement true or false? pxnnietgywk is not less likely to research than exzwyjldgsxb",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5626",
+    "context": "lzedkn gives another person a right while qppcdst does not",
+    "question": "Based on the above information, is the following statement true or false? qppcdst is less determind than lzedkn",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3502",
+    "context": "cqxrd loses control of the car while idkevzerqvm does not",
+    "question": "Based on the above information, is the following statement true or false? idkevzerqvm is not more clumsy than cqxrd",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5843",
+    "context": "ovcdmhh names names more than dkbdx",
+    "question": "Based on the above information, is the following statement true or false? ovcdmhh is not less mean than dkbdx",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_7113",
+    "context": "hqqpjkjhymyf sees another person better than yohrsp",
+    "question": "Based on the above information, is the following statement true or false? yohrsp is less loving than hqqpjkjhymyf",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3183",
+    "context": "cpwbtbgepwmu listens to zlw's words more than zlw",
+    "question": "Based on the above information, is the following statement true or false? cpwbtbgepwmu is not less attentive than zlw",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5621",
+    "context": "jsnq climbs back while qqqshnhvj does not",
+    "question": "Based on the above information, is the following statement true or false? jsnq is not more relieved than qqqshnhvj",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3917",
+    "context": "phqgsdgobbz separates the wheat from the chaff while xijkv does not",
+    "question": "Based on the above information, is the following statement true or false? xijkv is not less exact than phqgsdgobbz",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6639",
+    "context": "sdkvasoof performs their functions more than upgxzrkw",
+    "question": "Based on the above information, is the following statement true or false? upgxzrkw is more excitable than sdkvasoof",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_8124",
+    "context": "nvmldwop calls the police for help while pmkujkiszac does not",
+    "question": "Based on the above information, is the following statement true or false? pmkujkiszac is not less scared than nvmldwop",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2765",
+    "context": "ynewqjekwwpe moves vobo's legs",
+    "question": "Based on the above information, is the following statement true or false? vobo is not less aggressive than ynewqjekwwpe",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4709",
+    "context": "rvlwnqsuhhr tries to get another person's attention while uyy does not",
+    "question": "Based on the above information, is the following statement true or false? rvlwnqsuhhr is not more demanding than uyy",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6983",
+    "context": "wdpenzctpczj tells another person's son more than eaa",
+    "question": "Based on the above information, is the following statement true or false? wdpenzctpczj is not more affable than eaa",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5245",
+    "context": "gnpzxlcvqxmy becomes a father while mqwkqy does not",
+    "question": "Based on the above information, is the following statement true or false? mqwkqy is not more successful than gnpzxlcvqxmy",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5836",
+    "context": "dwgjo has been more severely injured than ngxp",
+    "question": "Based on the above information, is the following statement true or false? ngxp is more combative than dwgjo",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_2705",
+    "context": "tjupvolyugh helps wxdbhwggmkma feel better",
+    "question": "Based on the above information, is the following statement true or false? wxdbhwggmkma is not less altruistic than tjupvolyugh",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6250",
+    "context": "zihyufhr keeps it real more than yig",
+    "question": "Based on the above information, is the following statement true or false? yig is less careful than zihyufhr",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1553",
+    "context": "drltpazv uses igywapiearxg's cell phone",
+    "question": "Based on the above information, is the following statement true or false? igywapiearxg is not more friendly than drltpazv",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5216",
+    "context": "erqyjxmr asks the clerk while hyzzbyq does not",
+    "question": "Based on the above information, is the following statement true or false? erqyjxmr is less confused than hyzzbyq",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6624",
+    "context": "fkgcjgznftr loves another person's motorcycle more than exnk",
+    "question": "Based on the above information, is the following statement true or false? exnk is not more jealous than fkgcjgznftr",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_4398",
+    "context": "alffopo tells another person was pregnant while sunxfe does not",
+    "question": "Based on the above information, is the following statement true or false? sunxfe is not less excited than alffopo",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7449",
+    "context": "jvqoxourg eats leftovers more than zurywzwiyjci",
+    "question": "Based on the above information, is the following statement true or false? zurywzwiyjci is less hungry than jvqoxourg",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4769",
+    "context": "lzs works pretty well while gomakrzr does not",
+    "question": "Based on the above information, is the following statement true or false? lzs is not less competent than gomakrzr",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6186",
+    "context": "lzmugkcknup gets their father more than wgbunzcjd",
+    "question": "Based on the above information, is the following statement true or false? wgbunzcjd is not less supportive than lzmugkcknup",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_4188",
+    "context": "zcipvmsnsq gathers together in another person name more than wtmpk",
+    "question": "Based on the above information, is the following statement true or false? wtmpk is not less concillatory than zcipvmsnsq",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6089",
+    "context": "fklhtlygojrr visits their relatives more than dfftf",
+    "question": "Based on the above information, is the following statement true or false? fklhtlygojrr is not less thoughtful than dfftf",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_5213",
+    "context": "cxaqdrhbrz feels sick to their stomach while hcurwmfsmnq does not",
+    "question": "Based on the above information, is the following statement true or false? cxaqdrhbrz is not less unhealthy than hcurwmfsmnq",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1231",
+    "context": "zhqzdbtjirct gives kyfq orders",
+    "question": "Based on the above information, is the following statement true or false? zhqzdbtjirct is more powerful than kyfq",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_6313",
+    "context": "wkm washes their hands more than lcjipsmi",
+    "question": "Based on the above information, is the following statement true or false? lcjipsmi is not more hygenic than wkm",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_3615",
+    "context": "qmyphloeyxhh pays another person back while clxxrtvey does not",
+    "question": "Based on the above information, is the following statement true or false? qmyphloeyxhh is not more dependable than clxxrtvey",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_5349",
+    "context": "nzle goes car shopping while fxodawqkua does not",
+    "question": "Based on the above information, is the following statement true or false? fxodawqkua is more energetic than nzle",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_6286",
+    "context": "kqhd takes care of their needs more than sljpicodtlm",
+    "question": "Based on the above information, is the following statement true or false? sljpicodtlm is less caring than kqhd",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1337",
+    "context": "ybeokgyy gives gmmtsagtv utterance",
+    "question": "Based on the above information, is the following statement true or false? gmmtsagtv is not more kind than ybeokgyy",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_7989",
+    "context": "dtmlqaejpr breaks both of their legs more than fccgk",
+    "question": "Based on the above information, is the following statement true or false? fccgk is more painfull than dtmlqaejpr",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_1029",
+    "context": "rewpousdv expresses txoufiecurw's opinion",
+    "question": "Based on the above information, is the following statement true or false? txoufiecurw is more crafty than rewpousdv",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_2378",
+    "context": "ekg is celebrating pqlujmpld's birthday",
+    "question": "Based on the above information, is the following statement true or false? pqlujmpld is less kind than ekg",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_3837",
+    "context": "gowe sends another person a text message while lrybdnidnuf does not",
+    "question": "Based on the above information, is the following statement true or false? gowe is not less helpful than lrybdnidnuf",
+    "answer": "A",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  },
+  {
+    "id": "RICA_1864",
+    "context": "pqvxodukvrkk nuzzles gsjqowxrokiq's face",
+    "question": "Based on the above information, is the following statement true or false? pqvxodukvrkk is not more brisk than gsjqowxrokiq",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "B"
+  },
+  {
+    "id": "RICA_8043",
+    "context": "hhxuuytfuimp puts the cat among the pigeons more than jkkyh",
+    "question": "Based on the above information, is the following statement true or false? jkkyh is more a risk taker than hhxuuytfuimp",
+    "answer": "B",
+    "flag": "execution error",
+    "predicted_answer": "A"
+  }
+]
