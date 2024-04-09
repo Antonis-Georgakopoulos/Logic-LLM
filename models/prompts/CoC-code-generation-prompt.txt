@@ -1,0 +1,37 @@
+Q: Which sentence has the correct adjective order:
+Options:
+(A) rubber terrible ship
+(B) terrible rubber ship
+A:
+# CODE START
+import numpy as np
+options = {"(A)": "rubber terrible ship", "(B)": "terrible rubber ship"}
+priority = {"opinion": 1, "size": 2, "age": 3, "shape": 4, "color": 5, "origin": 6, "material": 7, "purpose": 8}
+valid_types = list(priority.keys())
+scores = []
+for option, sentence in options.items():
+  adjectives = sentence.split(" ")[:-1]
+  order = [priority[get_adjective_type(adjective, valid_types, ret_type=str)] for adjective in adjectives]
+  scores.append([order[i+1] > order[i] for i in range(len(order) - 1)].count(True))
+answer = list(options.keys())[np.argmax(scores)]
+# CODE END
+
+Q: Today is Christmas Eve of 1937. What is the date 10 days ago in MM/DD/YYYY?
+A:
+# CODE START
+import datetime
+options = {"12/14/2026": "(A)", "12/14/1950": "(B)", "12/14/2007": "(C)", "12/14/1937": "(D)", "07/14/1938": "(E)", "12/14/1988": "(F)"}
+today = datetime.date(year=1937, month=12, day=24)
+date = today - datetime.timedelta(days=10)
+answer = date.strftime("%m/%d/%Y")
+# CODE END
+
+Q: Recommend a movie similar to Star Wars Episode IV - A New Hope, Indiana Jones and the Last Crusade, Star Wars Episode V - The Empire Strikes Back, The Big Lebowski:
+A:
+# CODE START
+ref_movies = ["Star Wars Episode IV - A New Hope", "Indiana Jones and the Last Crusade", "Star Wars Episode V - The Empire Strikes Back", "The Big Lebowski"]
+ref_movie_infos = get_movie_genre_and_year(ref_movies, ret_type="list[tuple[str, int]]")
+answer = get_most_similar_movie(ref_movies, ref_movie_infos, ret_type="str")
+# CODE END
+
+Q: 

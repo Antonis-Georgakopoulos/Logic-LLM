@@ -1,0 +1,37 @@
+# TRACE START
+state: {}
+line: adjective = "red"
+delta state: {'adjective': 'red'}
+line: valid_types = {"opinion", "size", "age", "shape", "color", "origin", "material", "purpose"}
+delta state: {'valid_types': {'opinion', 'size', 'age', 'shape', 'color', 'origin', 'material', 'purpose'}}
+line: adj_type = get_adjective_type(adjective, valid_types, ret_type=str)
+delta state: {'adj_type': 'color'}
+# TRACE END
+
+# TRACE START
+state: {}
+line: obj1 = "soda can"
+delta state: {'obj1': 'soda can'}
+line: is_obj1_recyclable = is_recyclable(obj1, ret_type=bool)
+delta state: {'is_obj1_recyclable': True}
+line: obj2 = "fruit"
+delta state: {'obj2': 'fruit'}
+line: is_obj2_recyclable = is_recyclable(obj2, ret_type=bool)
+delta state: {'is_obj2_recyclable': False}
+# TRACE END
+
+# TRACE START
+state: {}
+line: num1 = 23
+delta state: {'num1': 23}
+line: num2 = 52
+delta state: {'num2': 52}
+line: sum_of_two = num1 + num2
+delta state: {'sum_of_two': 75}
+line: greated_than_one_hundred = is_greater(sum_of_two, 100)
+delta state: {'greated_than_one_hundred': False}
+# TRACE END
+
+# TRACE START
+state: {}
+line: 
