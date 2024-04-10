@@ -38,10 +38,10 @@ class ChainOfCode():
         self.progress_bar = None
         
         with open('models/prompts/CoC-trace-prompt.txt', 'r') as f:
-            self.coc_trace_prompt = f.read()
+            self.coc_trace_prompt = f.read().strip()
         
         with open('models/prompts/CoC-code-generation-prompt.txt', 'r') as f:
-            self.coc_generation_prompt = f.read()
+            self.coc_generation_prompt = f.read().strip()
         
         
     def query_llm(self, prompt, max_tokens, stop=None, temperature=0):
@@ -61,8 +61,6 @@ class ChainOfCode():
         print(response)
         print("#### Model Answer ####")
         print(answer)
-        print("#### Correct Answer ####")
-        print(self.correct_answer)
         
             
     def get_delta_state(self, state, last_state):
@@ -79,7 +77,7 @@ class ChainOfCode():
         return delta_state
 
 
-    def get_state(frame):
+    def get_state(self, frame):
         """
         This method 'captures' and returns the local variables that currently in
         the frame that we pass as an argument
@@ -109,7 +107,7 @@ class ChainOfCode():
         # Running a certain line
         # If the program is about to execute a new line of code
         if event == "line":
-            print(f"Show_trace method. event==line. Line to execute: {lines[lineno]}")
+            # print(f"Show_trace method. event==line. Line to execute: {lines[lineno]}")
             current_line = lines[lineno]
             if current_line.strip() in ["try:", "except:", "pass"]:
                 pass
@@ -183,8 +181,8 @@ class ChainOfCode():
             if error_lineno is None and lineno not in errors:
                 error_lineno = lineno
 
-        return show_trace
-    
+        return self.show_trace
+
     
     def evaluate_coc(self, query):
         """
@@ -203,16 +201,20 @@ class ChainOfCode():
         
         coc_response = self.query_llm(self.coc_generation_prompt + "\n\n" + query, max_tokens=1024)
         code_to_run = coc_response.split(self.code_start_token)[1].split(self.code_end_token)[0].strip()
-        
+        # print(f"Response is: \n{code_to_run}")
         answer = None
         max_trials = 3
         # Wrap the code inside the get_answer function call
         code_to_run_temp = code_to_run.split("\n")
+        # code_to_run_temp = self.fix_indentation(code_to_run).split("\n")
         code_to_run = "\n".join(["  " + l for l in code_to_run_temp])
         code_to_run = f"""def get_answer():
-        {code_to_run}
-        return answer
-        answer = get_answer()"""
+{code_to_run}
+  return answer
+answer = get_answer()"""
+        
+        
+        
         lines = code_to_run.split("\n")
         local_vars = locals()
 
@@ -227,8 +229,6 @@ class ChainOfCode():
                 assert coc_answer is not None
                 break
             except Exception as e:
-                print(f"self error lineno: {error_lineno}")
-                # print(f"Get exception in the 'evaluate_coc' method, exc: {e}")
                 assert error_lineno is not None
                 # Update errors
                 line = lines[error_lineno]
@@ -254,7 +254,7 @@ class ChainOfCode():
 if __name__ == "__main__":
     CoC = ChainOfCode()
     query = """
-Q: How many countries have I been to? I've been to Mumbai, London.
+Q: If I stack three Eiffel Towers on top of each other, how tall is the new tower?
 """.strip()
     sys.settrace(CoC.show_trace)
     # query = "What type of food does two concentric circles look like?"
