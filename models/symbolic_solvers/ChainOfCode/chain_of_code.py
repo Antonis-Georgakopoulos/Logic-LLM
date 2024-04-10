@@ -64,8 +64,8 @@ class ChainOfCode():
         print("#### Correct Answer ####")
         print(self.correct_answer)
         
-        
-    def get_delta_state(self, state):
+            
+    def get_delta_state(self, state, last_state):
         """
         This method indicates the difference between the current state and the
         last state. So it focses on the differences between two consecutive states.
@@ -74,7 +74,7 @@ class ChainOfCode():
         """
         delta_state = {}
         for key, val in state.items():
-            if key not in self.last_state or val != self.last_state[key]:
+            if key not in last_state or val != last_state[key]:
                 delta_state[key] = val
         return delta_state
 
@@ -92,13 +92,14 @@ class ChainOfCode():
 
 
     def show_trace(self, frame, event, arg):
+        # Declare these global variable first
         global errors
         global error_lineno
         global lines
         global trace_lines
         global last_state
         global lines_run_history
-        
+
         # The LLM-generated code will be wrapped around in the get_answer function call.
         # If we don't filter by "get_answer", we got a bunch of random exception from colab
         if frame.f_code.co_name != "get_answer":
@@ -116,7 +117,7 @@ class ChainOfCode():
                 assert lineno == len(lines) - 2, "return answer is at the wrong line" # Second to last line
                 state = self.get_state(frame)
                 assert last_state is not None
-                delta_state = self.get_delta_state(state)
+                delta_state = self.get_delta_state(state, last_state)
                 trace_lines.append(f"delta state: {delta_state}")
                 # Append the final state
                 trace_lines.append(f"final state: {state}")
@@ -131,7 +132,7 @@ class ChainOfCode():
                 if last_state is None:
                     delta_state = None
                 else:
-                    delta_state = self.get_delta_state(state)
+                    delta_state = self.get_delta_state(state, last_state)
                 last_state = copy.deepcopy(state)
 
                 if delta_state is None:
@@ -151,7 +152,7 @@ class ChainOfCode():
                 if last_state is None:
                     delta_state = None
                 else:
-                    delta_state = self.get_delta_state(state)
+                    delta_state = self.get_delta_state(state, last_state)
                 last_state = copy.deepcopy(state)
 
                 if delta_state is None:
@@ -167,7 +168,7 @@ class ChainOfCode():
 
                 llm_result = self.query_llm(prompt, max_tokens=32, stop=["\nline:"])
 
-                self.progress_bar.update()
+                # self.progress_bar.update()
                 program_state_str = llm_result.strip()
                 try:
                     new_program_state = ast.literal_eval(program_state_str)
@@ -182,11 +183,9 @@ class ChainOfCode():
             if error_lineno is None and lineno not in errors:
                 error_lineno = lineno
 
-        return self.show_trace
+        return show_trace
     
     
-    
-    # This will need to change
     def evaluate_coc(self, query):
         """
         Evaluates the response from the CoC approach.
@@ -218,8 +217,7 @@ class ChainOfCode():
         local_vars = locals()
 
         for num_trial in range(max_trials):
-            print(f"TRIAL IS: {num_trial}")
-            # if we don't have any trace yet, then go and get one by the show_trace function
+            
             if sys.gettrace() is None: sys.settrace(self.show_trace)
             assert sys.gettrace() is not None, "get trace is None"
             try:
@@ -255,10 +253,9 @@ class ChainOfCode():
 
 if __name__ == "__main__":
     CoC = ChainOfCode()
-    
+    query = """
+Q: How many countries have I been to? I've been to Mumbai, London.
+""".strip()
     sys.settrace(CoC.show_trace)
-    query = "What type of food does two concentric circles look like?"
-    num_places = 2
-    CoC.progress_bar = tqdm(total=num_places)
+    # query = "What type of food does two concentric circles look like?"
     CoC.evaluate_coc(query)
-    CoC.progress_bar.close()
