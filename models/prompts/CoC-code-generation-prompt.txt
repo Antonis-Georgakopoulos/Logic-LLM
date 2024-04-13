@@ -34,4 +34,59 @@ ref_movie_infos = get_movie_genre_and_year(ref_movies, ret_type="list[tuple[str,
 answer = get_most_similar_movie(ref_movies, ref_movie_infos, ret_type="str")
 # CODE END
 
+Q: bhgvynv is a hamster, sppqg is an ant, so bhgvynv is more likely to spin on a wheel than sppqg. True or False?
+A:
+# CODE START
+animals = {
+    "bhgvynv": {"species": "hamster"},
+    "sppqg": {"species": "ant"}
+}
+if animals["bhgvynv"]["species"] == "hamster" and animals["sppqg"]["species"] == "ant":
+    answer = True
+else:
+    answer = False
+#CODE END
+
+Q: Anne is quiet. Erin is furry. Erin is green. Fiona is furry. Fiona is quiet. Fiona is red. Fiona is rough. Fiona is white. Harry is furry. Harry is quiet. Harry is white. Young people are furry. If Anne is quiet then Anne is red. Young, green people are rough. If someone is green then they are white. If someone is furry and quiet then they are white. If someone is young and white then they are rough. All red people are young. Based on the above information, is the following statement true, false, or unknown? Anne is white.
+A:
+#CODE START
+people = {
+    "Anne": {"is_quiet": True, "is_red": True, "is_young": True},
+    "Erin": {"is_furry": True, "is_green": True, "is_white": True},
+    "Fiona": {"is_furry": True, "is_quiet": True, "is_red": True, "is_rough": True, "is_white": True, "is_young": True},
+    "Harry": {"is_furry": True, "is_quiet": True, "is_white": True},
+}
+rules = {
+    "young_people_are_furry": True,
+    "young_green_people_are_rough": True,
+    "if_green_then_white": True,
+    "if_furry_and_quiet_then_white": True,
+    "if_young_and_white_then_rough": True,
+    "all_red_people_are_young": True,
+}
+if people["Anne"]["is_quiet"] and rules["if_furry_and_quiet_then_white"]:
+    answer = "True"
+else:
+    answer = "False"
+# CODE END
+
+Q:The following paragraphs each describe a set of three objects arranged in a fixed order. The statements are logically consistent within each paragraph. In an antique car show, there are three vehicles: a station wagon, a convertible, and a minivan. The station wagon is the oldest. The minivan is newer than the convertible. Question: Which of the following is true? Options: A) The station wagon is the second-newest. B) The convertible is the second-newest. C) The minivan is the second-newest.
+A:
+#CODE START
+vehicles = {
+    "station_wagon": 3,
+    "convertible": 2,
+    "minivan": 1,
+}
+options = {
+    "A": "station_wagon",
+    "B": "convertible",
+    "C": "minivan",
+}
+for option, vehicle in options.items():
+    if vehicles[vehicle] == 2:
+        answer = option
+        break
+# CODE END
+
 Q: 
