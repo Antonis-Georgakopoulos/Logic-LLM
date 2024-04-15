@@ -1,74 +1,146 @@
 Task: Given the initial program and the error message, debug the following logic program.
 ------
 >>> Initial Program:
-# Predicates:
-GaveMoreThan($x, $y, bool) ::: Did x give more than y?
-LessOfAGiver($x, $y, bool) ::: Is x less of a giver than y?
-# Facts:
-GaveMoreThan(cnpmoxbejvj, knds, True)
-# Rules:
-GaveMoreThan($x, $y, True) >>> LessOfAGiver($y, $x, True)
-# Query:
-LessOfAGiver(knds, cnpmoxbejvj, True)
+Predicates:
+Big($x, bool) ::: Is x big?
+Blue($x, bool) ::: Is x blue?
+Rough($x, bool) ::: Is x rough?
+Cold($x, bool) ::: Is x cold?
+Green($x, bool) ::: Is x green?
+White($x, bool) ::: Is x white?
+Young($x, bool) ::: Is x young?
+Facts:
+Big(Bob, True) >>> White(Bob, True) ::: If Bob is big then Bob is white.
+Blue(Dave, True) ::: Dave is blue.
+White(Dave, True) ::: Dave is white.
+Young(Harry, True) ::: Harry is young.
+Rules:
+Young($x, True) >>> White($x, True) ::: Young people are white.
+Cold($x, True) && Young($x, True) >>> Rough($x, True) ::: Cold, young people are rough.
+Green(Anne, True) && Young(Anne, True) >>> White(Anne, True) ::: If Anne is green and Anne is young then Anne is white.
+White($x, True) && Big($x, True) >>> Blue($x, True) ::: White, big people are blue.
+Blue($x, True) >>> Green($x, True) ::: All blue people are green.
+Young($x, True) && White($x, True) >>> Big($x, True) ::: If someone is young and white then they are big.
+Blue($x, True) >>> Cold($x, True) ::: Blue people are cold.
+Facts:
+Big(Anne, True) ::: Anne is big.
+Blue(Anne, True) ::: Anne is blue.
+Rough(Anne, True) ::: Anne is rough.
+Cold(Bob, True) ::: Bob is cold.
+Green(Bob, True) ::: Bob is green.
+Rough(Bob, True) ::: Bob is rough.
+White(Bob, True) ::: Bob is white.
+Blue(Dave, True) ::: Dave is blue.
+White(Dave, True) ::: Dave is white.
+Query:
+Big(Harry, True) ::: Is Harry big?
 >>> Error Message:
 Parsing Error
 >>> Corrected Program:
-# Predicates:
-GaveMoreThan($x, $y, bool) ::: Did x give more than y?
-LessOfAGiver($x, $y, bool) ::: Is x less of a giver than y?
-# Facts:
-GaveMoreThan(cnpmoxbejvj, knds, True)
-# Rules:
-GaveMoreThan($x, $y, True) >>> LessOfAGiver($y, $x, True)
-# Query:
-LessOfAGiver(knds, cnpmoxbejvj)
+Predicates:
+Big($x, bool) ::: Is x big?
+Blue($x, bool) ::: Is x blue?
+Rough($x, bool) ::: Is x rough?
+Cold($x, bool) ::: Is x cold?
+Green($x, bool) ::: Is x green?
+White($x, bool) ::: Is x white?
+Young($x, bool) ::: Is x young?
+
+Facts:
+Big(Anne, True) ::: Anne is big.
+Blue(Anne, True) ::: Anne is blue.
+Rough(Anne, True) ::: Anne is rough.
+Cold(Bob, True) ::: Bob is cold.
+Green(Bob, True) ::: Bob is green.
+Rough(Bob, True) ::: Bob is rough.
+White(Bob, True) ::: Bob is white.
+Blue(Dave, True) ::: Dave is blue.
+White(Dave, True) ::: Dave is white.
+Young(Harry, True) ::: Harry is young.
+
+Rules:
+Big(Bob, True) >>> White(Bob, True) ::: If Bob is big then Bob is white.
+Young($x, True) >>> White($x, True) ::: Young people are white.
+Cold($x, True) && Young($x, True) >>> Rough($x, True) ::: Cold, young people are rough.
+Green(Anne, True) && Young(Anne, True) >>> White(Anne, True) ::: If Anne is green and Anne is young then Anne is white.
+White($x, True) && Big($x, True) >>> Blue($x, True) ::: White, big people are blue.
+Blue($x, True) >>> Green($x, True) ::: All blue people are green.
+Young($x, True) && White($x, True) >>> Big($x, True) ::: If someone is young and white then they are big.
+Blue($x, True) >>> Cold($x, True) ::: Blue people are cold.
+
+Query:
+Big(Harry, True) ::: Harry is big.
 ------
 >>> Initial Program:
-# Predicates:
-ComesToUnderstanding($x, $y, bool) ::: Does x come to understanding more than y?
-LessKnowledgeable($x, $y, bool) ::: Is x less knowledgeable than y?
-# Facts:
-ComesToUnderstanding(wmjzssv, jzdodjnxyiec, True)
-# Rules:
-ComesToUnderstanding($x, $y, True) >>> LessKnowledgeable($y, $x)
-LessKnowledgeable($x, $y) >>> Not(ComesToUnderstanding($x, $y))
-# Query:
-LessKnowledgeable(jzdodjnxyiec, wmjzssv)
->>> Error Message:
-Execution Error
->>> Corrected Program:
-# Predicates:
-ComesToUnderstanding($x, $y, bool) ::: Does x come to understanding more than y?
-LessKnowledgeable($x, $y, bool) ::: Is x less knowledgeable than y?
-# Facts:
-ComesToUnderstanding(wmjzssv, jzdodjnxyiec, True)
-# Rules:
-ComesToUnderstanding($x, $y, True) >>> LessKnowledgeable($y, $x)
-# Query:
-LessKnowledgeable(jzdodjnxyiec, wmjzssv)
-------
->>> Initial Program:
-# Predicates:
-BuildsNest($x, $y, bool) ::: Does x build y's nest?
-MoreCaring($x, $y, bool) ::: Is x more caring than y?
-# Facts:
-BuildsNest(zsppnex, csynbolnrt, True)
-# Rules:
-BuildsNest($x, $y, True) >>> MoreCaring($y, $x, True)
-# Query:
-MoreCaring(csynbolnrt, zsppnex, True)
+Predicates:
+Cold($x, bool) ::: Is x cold?
+Rough($x, bool) ::: Is x rough?
+Needs($x, $y, bool) ::: Does x need y?
+Visits($x, $y, bool) ::: Does x visit y?
+Chases($x, $y, bool) ::: Does x chase y?
+Red($x, bool) ::: Is x red?
+Query:
+Visits(BaldEagle, Lion, False) ::: The bald eagle does not visit the lion.
+Facts:
+Cold(BaldEagle, True) ::: The bald eagle is cold.
+Rough(BaldEagle, True) ::: The bald eagle is rough.
+Needs(BaldEagle, Tiger, True) ::: The bald eagle needs the tiger.
+Visits(BaldEagle, Squirrel, True) ::: The bald eagle visits the squirrel.
+Cold(Lion, True) ::: The lion is cold.
+Kind(Lion, True) ::: The lion is kind.
+Needs(Lion, Tiger, True) ::: The lion needs the tiger.
+Chases(Squirrel, BaldEagle, True) ::: The squirrel chases the bald eagle.
+Chases(Squirrel, Tiger, True) ::: The squirrel chases the tiger.
+Visits(Squirrel, Tiger, True) ::: The squirrel visits the tiger.
+Red(Tiger, True) ::: The tiger is red.
+Rules:
+Needs($x, Squirrel, True) >>> Chases($x, Tiger, True) ::: If someone needs the squirrel then they chase the tiger.
+Rough($x, True) && Chases($x, Squirrel, True) >>> Visits(Squirrel, Lion, True) ::: If someone is rough and they chase the squirrel then the squirrel visits the lion.
+Visits($x, Tiger, True) && Visits($x, Lion, True) >>> Needs(Lion, BaldEagle, True) ::: If someone visits the tiger and they visit the lion then the lion needs the bald eagle.
+Visits($x, BaldEagle, True) && Visits(BaldEagle, Squirrel, True) >>> Chases(BaldEagle, Squirrel, True) ::: If someone visits the bald eagle and the bald eagle visits the squirrel then the bald eagle chases the squirrel.
+Red($x, True) >>> Chases($x, Lion, True) ::: If someone is red then they chase the lion.
+Chases($x, Lion, True) && Visits($x, BaldEagle, True) >>> Needs($x, BaldEagle, True) ::: If someone chases the lion and they visit the bald eagle then they need the bald eagle.
+Visits($x, BaldEagle, True) >>> Needs($x, BaldEagle, True) ::: If someone visits the bald eagle then they need the bald eagle.
+Chases($x, Lion, True) >>> Visits($x, BaldEagle, True) ::: If someone chases the lion then they visit the bald eagle.
+Chases(Tiger, BaldEagle, True) ::: If someone chases the tiger then the tiger chases the bald eagle.
 >>> Error Message:
 Parsing Error
 >>> Corrected Program:
-# Predicates:
-BuildsNest($x, $y, bool) ::: Does x build y's nest?
-MoreCaring($x, $y, bool) ::: Is x more caring than y?
-# Facts:
-BuildsNest(zsppnex, csynbolnrt, True)
-# Rules:
-BuildsNest($x, $y, True) >>> MoreCaring($y, $x, True)
-# Query:
-MoreCaring(csynbolnrt, zsppnex)
+Predicates:
+Cold($x, bool) ::: Is x cold?
+Rough($x, bool) ::: Is x rough?
+Needs($x, $y, bool) ::: Does x need y?
+Visits($x, $y, bool) ::: Does x visit y?
+Chases($x, $y, bool) ::: Does x chase y?
+Kind($x, bool) ::: Is x kind?
+Red($x, bool) ::: Is x red?
+
+Facts:
+Cold(BaldEagle, True) ::: The bald eagle is cold.
+Rough(BaldEagle, True) ::: The bald eagle is rough.
+Needs(BaldEagle, Tiger, True) ::: The bald eagle needs the tiger.
+Visits(BaldEagle, Squirrel, True) ::: The bald eagle visits the squirrel.
+Cold(Lion, True) ::: The lion is cold.
+Kind(Lion, True) ::: The lion is kind.
+Needs(Lion, Tiger, True) ::: The lion needs the tiger.
+Chases(Squirrel, BaldEagle, True) ::: The squirrel chases the bald eagle.
+Chases(Squirrel, Tiger, True) ::: The squirrel chases the tiger.
+Visits(Squirrel, Tiger, True) ::: The squirrel visits the tiger.
+Red(Tiger, True) ::: The tiger is red.
+
+Rules:
+Needs($x, Squirrel, True) >>> Chases($x, Tiger, True) ::: If someone needs the squirrel then they chase the tiger.
+Rough($x, True) && Chases($x, Squirrel, True) >>> Visits(Squirrel, Lion, True) ::: If someone is rough and they chase the squirrel then the squirrel visits the lion.
+Visits($x, Tiger, True) && Visits($x, Lion, True) >>> Needs(Lion, BaldEagle, True) ::: If someone visits the tiger and they visit the lion then the lion needs the bald eagle.
+Visits($x, BaldEagle, True) && Visits(BaldEagle, Squirrel, True) >>> Chases(BaldEagle, Squirrel, True) ::: If someone visits the bald eagle and the bald eagle visits the squirrel then the bald eagle chases the squirrel.
+Red($x, True) >>> Chases($x, Lion, True) ::: If someone is red then they chase the lion.
+Chases($x, Lion, True) && Visits($x, BaldEagle, True) >>> Needs($x, BaldEagle, True) ::: If someone chases the lion and they visit the bald eagle then they need the bald eagle.
+Visits($x, BaldEagle, True) >>> Needs($x, BaldEagle, True) ::: If someone visits the bald eagle then they need the bald eagle.
+Chases($x, Lion, True) >>> Visits($x, BaldEagle, True) ::: If someone chases the lion then they visit the bald eagle.
+Chases($x, Tiger, True) >>> Chases(Tiger, BaldEagle, True) ::: If someone chases the tiger then the tiger chases the bald eagle.
+
+Query:
+Visits(BaldEagle, Lion, False) ::: The bald eagle does not visit the lion.
 ------
 >>> Initial Program:
 [[PROGRAM]]

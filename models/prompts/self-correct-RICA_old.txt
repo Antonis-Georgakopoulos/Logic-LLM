@@ -1,0 +1,77 @@
+Task: Given the initial program and the error message, debug the following logic program.
+------
+>>> Initial Program:
+# Predicates:
+GaveMoreThan($x, $y, bool) ::: Did x give more than y?
+LessOfAGiver($x, $y, bool) ::: Is x less of a giver than y?
+# Facts:
+GaveMoreThan(cnpmoxbejvj, knds, True)
+# Rules:
+GaveMoreThan($x, $y, True) >>> LessOfAGiver($y, $x, True)
+# Query:
+LessOfAGiver(knds, cnpmoxbejvj, True)
+>>> Error Message:
+Parsing Error
+>>> Corrected Program:
+# Predicates:
+GaveMoreThan($x, $y, bool) ::: Did x give more than y?
+LessOfAGiver($x, $y, bool) ::: Is x less of a giver than y?
+# Facts:
+GaveMoreThan(cnpmoxbejvj, knds, True)
+# Rules:
+GaveMoreThan($x, $y, True) >>> LessOfAGiver($y, $x, True)
+# Query:
+LessOfAGiver(knds, cnpmoxbejvj)
+------
+>>> Initial Program:
+# Predicates:
+ComesToUnderstanding($x, $y, bool) ::: Does x come to understanding more than y?
+LessKnowledgeable($x, $y, bool) ::: Is x less knowledgeable than y?
+# Facts:
+ComesToUnderstanding(wmjzssv, jzdodjnxyiec, True)
+# Rules:
+ComesToUnderstanding($x, $y, True) >>> LessKnowledgeable($y, $x)
+LessKnowledgeable($x, $y) >>> Not(ComesToUnderstanding($x, $y))
+# Query:
+LessKnowledgeable(jzdodjnxyiec, wmjzssv)
+>>> Error Message:
+Execution Error
+>>> Corrected Program:
+# Predicates:
+ComesToUnderstanding($x, $y, bool) ::: Does x come to understanding more than y?
+LessKnowledgeable($x, $y, bool) ::: Is x less knowledgeable than y?
+# Facts:
+ComesToUnderstanding(wmjzssv, jzdodjnxyiec, True)
+# Rules:
+ComesToUnderstanding($x, $y, True) >>> LessKnowledgeable($y, $x)
+# Query:
+LessKnowledgeable(jzdodjnxyiec, wmjzssv)
+------
+>>> Initial Program:
+# Predicates:
+BuildsNest($x, $y, bool) ::: Does x build y's nest?
+MoreCaring($x, $y, bool) ::: Is x more caring than y?
+# Facts:
+BuildsNest(zsppnex, csynbolnrt, True)
+# Rules:
+BuildsNest($x, $y, True) >>> MoreCaring($y, $x, True)
+# Query:
+MoreCaring(csynbolnrt, zsppnex, True)
+>>> Error Message:
+Parsing Error
+>>> Corrected Program:
+# Predicates:
+BuildsNest($x, $y, bool) ::: Does x build y's nest?
+MoreCaring($x, $y, bool) ::: Is x more caring than y?
+# Facts:
+BuildsNest(zsppnex, csynbolnrt, True)
+# Rules:
+BuildsNest($x, $y, True) >>> MoreCaring($y, $x, True)
+# Query:
+MoreCaring(csynbolnrt, zsppnex)
+------
+>>> Initial Program:
+[[PROGRAM]]
+>>> Error Message:
+[[ERROR MESSAGE]]
+>>> Corrected Program:
