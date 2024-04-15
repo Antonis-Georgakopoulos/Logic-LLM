@@ -1,22 +1,13 @@
-import numpy as np
 import openai
 import tiktoken
 from tqdm.auto import trange, tqdm
-import time
-import os
 import json
 from tqdm import tqdm
-import re
 from types import NoneType
-import multiprocessing.dummy
-from io import StringIO
-from contextlib import redirect_stdout
-import signal
-from contextlib import contextmanager
-import matplotlib.pyplot as plt
 import sys
 import ast
 import copy
+import argparse
 
 errors = {}
 error_lineno = None
@@ -24,19 +15,23 @@ lines = None
 trace_lines = []
 last_state = None
 
+TOTAL_CORRECT_ANSWERS = 0
+FAILED_RUNS = 0
+
 
 class ChainOfCode():
-    def __init__(self):
-        self.engine = 'gpt-3.5-turbo-instruct'
-        self.correct_answer = '52'
+    def __init__(self, args, answer):
+        self.engine = args.model_name
         self.answer_token = 'Answer: '
+        self.correct_answer = answer
         self.code_start_token = "# CODE START"
         self.code_end_token = "# CODE END"
-        self.max_tokens = 4096
+        self.max_tokens = args.max_tokens
+        self.num_trials = args.num_trials
         self.encoder = tiktoken.encoding_for_model(self.engine)
         
         self.progress_bar = None
-        
+                
         with open('models/prompts/CoC-trace-prompt.txt', 'r') as f:
             self.coc_trace_prompt = f.read().strip()
         
@@ -49,18 +44,27 @@ class ChainOfCode():
         Give the prompt to the LLM and get response
         """
         assert type(prompt)
-        response = openai.Completion.create(prompt=prompt, model=self.engine, max_tokens=max_tokens, temperature=temperature, stop=stop)
-        response_text = response.choices[0]["text"].strip()
-        return response_text
+        
+        if 'instruct' in self.engine:
+            response = openai.Completion.create(prompt=prompt, model=self.engine, max_tokens=max_tokens, temperature=temperature, stop=stop)
+            response_text = response.choices[0]["text"].strip()
+            return response_text
+        else:        
+            messages = [{"role": "user", "content": prompt}]
+            response = openai.ChatCompletion.create(messages=messages, model=self.engine, max_tokens=max_tokens, temperature=temperature, stop=stop)
+            return response['choices'][0]['message']['content'].strip()
     
     
     def print_result(self, method, response, answer):
+        global TOTAL_CORRECT_ANSWERS
         print("#### Method ####")
         print(method)
         print("#### Full Response ####")
         print(response)
         print("#### Model Answer ####")
         print(answer)
+        if str(answer).strip().lower() == str(self.correct_answer).strip().lower():
+            TOTAL_CORRECT_ANSWERS += 1
         
             
     def get_delta_state(self, state, last_state):
@@ -96,18 +100,16 @@ class ChainOfCode():
         global lines
         global trace_lines
         global last_state
-        global lines_run_history
 
         # The LLM-generated code will be wrapped around in the get_answer function call.
         # If we don't filter by "get_answer", we got a bunch of random exception from colab
         if frame.f_code.co_name != "get_answer":
             return
-
+        
         lineno = frame.f_lineno - 1
         # Running a certain line
         # If the program is about to execute a new line of code
         if event == "line":
-            # print(f"Show_trace method. event==line. Line to execute: {lines[lineno]}")
             current_line = lines[lineno]
             if current_line.strip() in ["try:", "except:", "pass"]:
                 pass
@@ -165,8 +167,6 @@ class ChainOfCode():
                 token_length = len(self.encoder.encode(prompt))
 
                 llm_result = self.query_llm(prompt, max_tokens=32, stop=["\nline:"])
-
-                # self.progress_bar.update()
                 program_state_str = llm_result.strip()
                 try:
                     new_program_state = ast.literal_eval(program_state_str)
@@ -198,12 +198,19 @@ class ChainOfCode():
         global lines
         global trace_lines
         global last_state
+        global FAILED_RUNS
         
+        
+        # print(self.coc_generation_prompt + "\n\n" + query)
         coc_response = self.query_llm(self.coc_generation_prompt + "\n\n" + query, max_tokens=1024)
-        code_to_run = coc_response.split(self.code_start_token)[1].split(self.code_end_token)[0].strip()
-        # print(f"Response is: \n{code_to_run}")
+        # print(coc_response)
+        if self.code_start_token in coc_response and self.code_end_token in coc_response:
+            code_to_run = coc_response.split(self.code_start_token)[1].split(self.code_end_token)[0].strip()
+        else:
+            FAILED_RUNS += 1
+            return
+            
         answer = None
-        max_trials = 3
         # Wrap the code inside the get_answer function call
         code_to_run_temp = code_to_run.split("\n")
         # code_to_run_temp = self.fix_indentation(code_to_run).split("\n")
@@ -213,13 +220,12 @@ class ChainOfCode():
   return answer
 answer = get_answer()"""
         
-        
+        # print(code_to_run)
         
         lines = code_to_run.split("\n")
         local_vars = locals()
 
-        for num_trial in range(max_trials):
-            
+        for num_trial in range(self.num_trials):
             if sys.gettrace() is None: sys.settrace(self.show_trace)
             assert sys.gettrace() is not None, "get trace is None"
             try:
@@ -229,7 +235,10 @@ answer = get_answer()"""
                 assert coc_answer is not None
                 break
             except Exception as e:
-                assert error_lineno is not None
+                if error_lineno is None:
+                    FAILED_RUNS += 1
+                    return
+                
                 # Update errors
                 line = lines[error_lineno]
                 errors[error_lineno + 1] = line
@@ -250,12 +259,31 @@ answer = get_answer()"""
         self.print_result('CoC', coc_response, coc_answer)
         
 
+def parse_args():
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--dataset_name', type=str)
+    parser.add_argument('--model_name', type=str, default='gpt-3.5-turbo')
+    parser.add_argument('--num_trials', type=int, default=3)
+    parser.add_argument('--max_tokens', type=int, default=4096)
+    args = parser.parse_args()
+    return args
+
 
 if __name__ == "__main__":
-    CoC = ChainOfCode()
-    query = """
-Q: If I stack three Eiffel Towers on top of each other, how tall is the new tower?
-""".strip()
-    sys.settrace(CoC.show_trace)
-    # query = "What type of food does two concentric circles look like?"
-    CoC.evaluate_coc(query)
+    args = parse_args()
+    
+    file_path = f"data/{args.dataset_name}/{args.dataset_name}_for_CoC.json"
+    with open(file_path, 'r') as f:
+      data = json.load(f)  # Load data from the file
+    
+    for item in data:
+        
+        CoC = ChainOfCode(args, item['answer'])
+        query = f"""
+    Q: {item['question']}
+    """.strip()
+        sys.settrace(CoC.show_trace)
+        CoC.evaluate_coc(query)
+        
+    print(f"Total correct answers: {TOTAL_CORRECT_ANSWERS}")
+    print(f"Total failed runs: {FAILED_RUNS}")
