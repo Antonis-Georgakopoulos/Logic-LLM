@@ -26,7 +26,8 @@ class ChainOfCode():
         self.correct_answer = answer
         self.code_start_token = "# CODE START"
         self.code_end_token = "# CODE END"
-        self.max_tokens = args.max_tokens
+        self.max_tokens_generation = args.max_tokens_generation
+        self.max_tokens_lmulator = args.max_tokens_lmulator
         self.num_trials = args.num_trials
         self.encoder = tiktoken.encoding_for_model(self.engine)
         
@@ -63,6 +64,8 @@ class ChainOfCode():
         print(response)
         print("#### Model Answer ####")
         print(answer)
+        print("#### Correct Answer ####")
+        print(self.correct_answer)
         if str(answer).strip().lower() == str(self.correct_answer).strip().lower():
             TOTAL_CORRECT_ANSWERS += 1
         
@@ -166,7 +169,7 @@ class ChainOfCode():
 
                 token_length = len(self.encoder.encode(prompt))
 
-                llm_result = self.query_llm(prompt, max_tokens=32, stop=["\nline:"])
+                llm_result = self.query_llm(prompt, max_tokens=self.max_tokens_lmulator, stop=["\nline:"])
                 program_state_str = llm_result.strip()
                 try:
                     new_program_state = ast.literal_eval(program_state_str)
@@ -202,7 +205,7 @@ class ChainOfCode():
         
         
         # print(self.coc_generation_prompt + "\n\n" + query)
-        coc_response = self.query_llm(self.coc_generation_prompt + "\n\n" + query, max_tokens=1024)
+        coc_response = self.query_llm(self.coc_generation_prompt + "\n\n" + query, max_tokens=self.max_tokens_generation)
         # print(coc_response)
         if self.code_start_token in coc_response and self.code_end_token in coc_response:
             code_to_run = coc_response.split(self.code_start_token)[1].split(self.code_end_token)[0].strip()
@@ -264,7 +267,8 @@ def parse_args():
     parser.add_argument('--dataset_name', type=str)
     parser.add_argument('--model_name', type=str, default='gpt-3.5-turbo')
     parser.add_argument('--num_trials', type=int, default=3)
-    parser.add_argument('--max_tokens', type=int, default=4096)
+    parser.add_argument('--max_tokens_generation', type=int, default=1024)
+    parser.add_argument('--max_tokens_lmulator', type=int, default=32)
     args = parser.parse_args()
     return args
 
